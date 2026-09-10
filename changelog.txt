@@ -1,0 +1,108 @@
+*** Abandoned Cart Pro for WooCommerce ***
+2026-09-22 – Version 10.8.0
+* Fix – Admin emails were not sent for logged-in user carts when the user’s email address was not available in the user meta data for registered users.
+* Fix - Security: Added wcap_nonce verification to cart/checkout links in manually resent cart recovery emails (coupon and non-coupon cases), preventing unauthorized triggering of these links.
+* Fix – A fatal error occurred when adding a product to the cart and then visiting the Cart or Checkout pages.
+
+2026-09-02 - version 10.7.2
+* Fix - Security: privilege escalation vulnerability in abandoned cart AJAX handlers due to missing capability checks and nonce verification.
+
+2026-08-21 - version 10.7.1
+* Fix - Included the missing vendor directory to resolve the AI Reporting abilities not being registered when the Enable AI Abilities option was turned on.
+
+2026-08-18 - version 10.7.0
+* Fix - Carts were not abandoned when the Request for Quote (RFQ) plugin was active.
+* Fix - Fatal error when the Store API session handler did not support get_session_cookie().
+* Fix - Abandoned Cart Reminder Emails displayed the base currency instead of the customer-selected currency when using the FOX Currency Switcher plugin.
+* Fix - The plugin update notification was not displayed when a trial license key was activated.
+
+2026-07-25 - version 10.6.0
+* Dev – Added AI Reporting Abilities: lets AI assistants (such as Claude, connected via MCP) query abandoned-cart reporting data — top abandoned products, recovered revenue, recovery rates, and template performance.
+* Fix - Security: Resolved an issue where the abandoned/recovered cart REST API endpoints could be accessed without proper authentication under certain conditions.
+* Fix - Resolved an issue where the plugin could unexpectedly deactivate itself on multisite installations where WooCommerce was activated per-site rather than network-wide.
+* Fix - Resolved a fatal error that could occur if the plugin folder was renamed during installation or migration.
+* Tweak - Improved reliability of API rate-limiting under concurrent requests.
+
+2026-07-07 - version 10.5.0
+* Dev – Added REST API endpoints to retrieve abandoned and recovered cart data, with support for filtering and pagination.
+* Fix - Resolved an issue where the Date Filter in the Abandoned Orders table did not display abandoned carts when a predefined date range was selected.
+* Fix - Resolved an issue where GDPR Consent settings could not be saved from the admin panel and the consent message did not appear on the frontend when enabled.
+* Fix - Addressed a compatibility issue with WooCommerce Dynamic Pricing where excessive autoloader calls during price calculations caused high PHP-FPM process usage and temporarily impacted site availability.
+
+2026-05-26 - version 10.4.1
+* Fix - Security: critical privilege escalation vulnerability in the abandoned cart recovery auto-login functionality.
+* Fix - Security: privilege escalation in AJAX handlers due to missing capability checks and nonce verification.
+
+2026-05-07 - version 10.4.0
+* Fix – Add to Cart popup did not open for variable products when a block-based product template was enabled on single product pages.
+* Fix – Coupon code was not applied via the Add to Cart popup when the product page was built using the AFGolf 2026 block theme.
+
+2026-03-24 - version 10.3.1
+* Fix – Addressed a critical vulnerability in the import API that could allow shop managers to modify arbitrary WordPress options. Implemented strict capability checks and restricted imports to plugin-specific settings only.
+
+2026-03-17 - version 10.3.0
+* Feature – Added Import/Export functionality to transfer plugin settings (including email templates, SMS notifications, and configurations) across WooCommerce stores.
+* Fix - Resolved an issue where the GDPR consent checkbox was not displayed on the Checkout page and appeared only in the pop-up.
+* Fix - Resolved an issue where the Checkout email field became non-editable after page refresh or navigation when using Cart/Checkout blocks.
+* Fix - Addressed a compatibility issue with the Advanced Product Fields Pro plugin that prevented abandoned carts from being captured.
+* Fix - PHP warning triggered when adding a product to the cart.
+= 2026-01-06 - version 10.2.0
+* Tweak - Added a filter to allow admin notifications for visitor/guest abandoned carts even when no email address was available.
+* Fix - License Key page displayed the status as “License Active” even when the license had expired.
+* Fix - Dashboard tab did not show correct data when a custom date range was selected.
+* Fix - Incorrect data was displayed in the “Captured By” column for visitor carts.
+* Fix - Product quantity increased when an email ID was entered in the ATC popup modal while using the Twenty Twenty-Five theme.
+* Fix - Previously applied filters on the Abandoned Orders page persisted when revisiting, showing outdated data.
+2025-12-09 - version 10.1.0
+* Fix - Addressed a fatal error that occurred when activating the Abandoned Cart Pro plugin on multisite installations.
+* Fix - Corrected a problem where reminder emails were not delivered, even though they were marked as sent in the Edit Abandoned Order popup when using WooCommerce 10.4.
+* Fix - Resolved an issue where PHP deprecated warnings were logged on the Checkout page.
+2025-11-18 - version 10.0.0
+* Fix - Phone number entered in the Add to Cart popup was not captured in abandoned order data.
+* Fix - Abandoned Cart Dashboard was showing empty or missing data due to incorrect timestamp values being generated.
+* Fix - SMS consent checkbox was not displayed for logged-in users.
+* Fix - GDPR consent checkbox did not appear in the Add to Cart popup modal.
+* Fix - Email styling broke when sending a test email after inserting a template.
+2025-09-18 - version 9.19.1
+* Fix - Resolved a compatibility error that occurred while activating the license.
+2025-09-17 - version 9.19.0
+* Enhancement - Added WhatsApp integration to send reminder notifications for abandoned carts when a valid phone number is provided.
+* Enhancement - Added support for the "Double Opt-in" option to confirm customer subscription before adding them via Klaviyo integration.
+* Fix - The "Modal Heading" & "Modal Text" from Exit Intent Popup were not translated when WPML was active.
+* Fix - The "WCAP" text domain was not displayed in the WPML String Translation domain dropdown.
+* Fix - Resolved a compatibility error that occurred while activating the license.
+* Fix - Corrected Mailjet integration to display separate first/last name fields instead of concatenated full name.
+* Fix - The rules were not saved properly in the email template when more than ten rules were added.
+* Fix - The customer details was not auto-populated on Checkout Block page when accessed from reminder email link.
+* Fix - Incorrect data was shown in the "Captured By" column for visitor carts.
+* Fix - Addressed PHP deprecated notices and warnings in debug log.
+2025-07-29 - version 9.18.0
+* Fix - WooCommerce email preview displayed raw CSS instead of rendered styles.
+* Fix - Reminder emails not being sent due to a fatal error on the client site.
+* Fix - Unable to modify or update settings due to a JavaScript console error.
+* Fix - Visitor carts were not capturing complete billing and shipping address details.
+* Fix - WooCommerce email template style not applied when "Use WooCommerce Template Style" setting is enabled.
+* Fix - Addressed a styling issue with the Import Template popup in the Abandoned Carts settings in the backend.
+* Dev - Updated the folder structure of the plugin to improve maintainability and ease of future development.
+2025-05-27 - version 9.17.0
+* Fix - Resolved an arbitrary file upload vulnerability by restricting uploads to image file types only.
+* Fix - The Exit Intent pop-up was not working when either the Furnob Child theme or the Twenty Twenty-Five theme is active.
+* Fix - Trash link was not working on the Abandoned Orders page.
+* Fix - The tracking notice banner did not appear on the admin dashboard after clicking the Reset Tracking button.
+* Fix - "Submit Ticket" text appeared before the plugin version number on the plugin page.
+* Fix - debug log errors.
+
+2025-04-08 - version 9.16.0
+* Tweak - Added a hook for displaying a link after the Modal Heading in the Add to Cart popup template.
+* Tweak - UI/UX improvements in the backend for ease of use and to improve the overall experience.
+* Fix - Addressed an error occurring when users attempt to log in via the My Account page.
+* Fix - Addressed a styling issue with the Import Template popup in the Abandoned Carts settings in the backend.
+* Fix - Resolved all PHPCS warnings and aligned the code with WordPress Coding Standards to improve quality and maintainability.
+* Fix - Resolved debug log errors.
+
+2025-01-14 - version 9.15.0
+* Tweak - Updated the `wcap_cart_total` filter to include the `$cart` parameter, enabling customization of abandoned cart email sending based on external conditions.
+* Fix - Resolved an issue where plugin data was not fully removed from the database upon plugin deletion.
+* Fix - Fixed a PHP notice that appeared in the console log during connection to Drip.
+* Fix - Added a message to inform users that data from the Lite version has been successfully migrated to the Pro version after upgrading.
+* Fix - Added a message to inform users that data from the Lite version has been successfully migrated to the Pro version after upgrading.
