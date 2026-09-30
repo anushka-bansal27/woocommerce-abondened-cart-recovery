@@ -1,0 +1,43 @@
+.wcap-message {
+    display: flex;
+    align-items: center; /* Center items vertically */
+    padding: 10px 0px 10px 20px; /* Adjust padding as needed */
+    height: auto; /* Adjust based on content height */
+    background-color: #6232C3; /* Optional background color */
+    border-left-width: 0px !important;
+	border: none !important;
+    min-height: 100px;
+}
+
+.wcap-content {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap; /* Prevent wrapping of content */
+    gap: 16px; /* Space between logo and text */
+	font-size: 18px;
+    font-weight: 400;
+}
+
+.wcap-content p {
+    font-size: 16px !important;
+    color: white;
+}
+
+.wcap-content .button, .wcap-content .button:hover {
+    font-size: 16px !important;
+    background: white;
+    margin-left: 4px;
+    color: #6232c3;
+    border-color: unset;
+}
+
+.wcap-site-logo {
+    max-height: 50px; /* Adjust maximum height */
+    height: auto; /* Maintain aspect ratio */
+}
+.wcap-message.wcap-tracker.notice.notice-info.is-dismissible {
+    background: white;
+    border-left-color: #72aee6 !important;
+    border-left: 1px solid #72aee6 !important;
+    border-left-width: 3px !important;
+}

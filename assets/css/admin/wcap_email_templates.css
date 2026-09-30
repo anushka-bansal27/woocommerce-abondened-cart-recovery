@@ -1,0 +1,75 @@
+/* Add/Edit Template page. */
+.wcap_rule_subcategory {
+  font-style: italic;
+}
+.wcap_rule_parent_category {
+  font-weight: 600;
+}
+.wcap_rule_condition_col {
+  width: 23%;
+}
+#wcap_rules_email_addresses {
+  margin-top: 10px;
+}
+td select.wcap_rule_value.wc-product-search {
+  width: 90%;
+}
+td.wcap_rule_type_col {
+  padding: 0;
+  width: 25%;
+}
+td.wcap_rule_value_col {
+  width: 30%;
+}
+#wcap-rule-list {
+  padding: 0;
+  margin-top: 0;
+}
+
+#wcap_rule_list_footer {
+  padding: 0px;
+  border: none;
+}
+.wcap_rule_list_footer_tr:hover {
+  background-color: transparent!important;
+}
+
+.wcap-rule-list {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.wcap-rule-list td, .wcap-rule-list th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.wcap-rule-list tr:nth-child(even){
+  background-color: #f2f2f2;
+}
+
+.wcap-rule-list tr:hover {
+  background-color: #ddd;
+}
+
+.wcap-rule-list th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #2775a6;
+  color: white;
+}
+
+.wcap_add_rule_button {
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 5px 10px 5px 5px;
+  text-decoration: none;
+  margin-left:5px;
+}
+
+.wcap_delete_rule_button {
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 5px;
+}
