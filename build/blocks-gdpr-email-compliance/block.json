@@ -1,0 +1,22 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "woocommerce-abandon-cart-pro/wcap-gdpr-email",
+  "version": "1.0.0",
+  "title": "GDPR Email Compliance",
+  "category": "woocommerce",
+  "parent": [
+    "woocommerce/checkout-contact-information-block"
+  ],
+  "attributes": {
+    "lock": {
+      "type": "object",
+      "default": {
+        "remove": true,
+        "move": true
+      }
+    }
+  },
+  "textdomain": "woocommerce-ac",
+  "editorScript": "file:./build/index.js"
+}
