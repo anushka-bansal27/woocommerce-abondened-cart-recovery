@@ -5,7 +5,7 @@
  * @version 1.0.0
  * @since   9.7.0
  * @package Abandon Cart Pro/Data Tracking
- * @author  Tyche Softwares
+ * @author  LittleCodr
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -68,7 +68,7 @@ if ( ! class_exists( 'Wcap_Data_Tracking' ) ) :
 
 			wp_enqueue_script(
 				'wcap_ts_dismiss_notice',
-				$plugin_url . '/tyche/assets/tyche-dismiss-tracking-notice.js',
+				$plugin_url . '/LittleCodr/assets/LittleCodr-dismiss-tracking-notice.js',
 				'',
 				WCAP_PLUGIN_VERSION . '_' . time(),
 				false

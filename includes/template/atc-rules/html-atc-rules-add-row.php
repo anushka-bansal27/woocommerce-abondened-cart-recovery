@@ -2,7 +2,7 @@
 /**
  * This file will add functions related to verifying email present on ATC field.
  *
- * @author  Tyche Softwares
+ * @author  LittleCodr
  * @package Abandoned-Cart-Pro-for-WooCommerce/Admin/ATC
  * @since 8.8.0
  */

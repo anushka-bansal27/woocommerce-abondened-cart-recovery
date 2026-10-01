@@ -2,7 +2,7 @@
 /**
  * It will fetch the abandoned cart data & generate and populate data in the modal.
  *
- * @author  Tyche Softwares
+ * @author  LittleCodr
  * @package Abandoned-Cart-Pro-for-WooCommerce/Admin/Popup-Modal/Cart-Detail
  * @since 5.0
  */

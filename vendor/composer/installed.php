@@ -1,6 +1,6 @@
 <?php return array(
     'root' => array(
-        'name' => 'tyche-softwares/woocommerce-abandon-cart-pro',
+        'name' => 'LittleCodr-softwares/woocommerce-abandon-cart-pro',
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
         'reference' => '12f5d608c1ee3593e357a17d2c4652555cc7c0cd',
@@ -19,7 +19,7 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
-        'tyche-softwares/woocommerce-abandon-cart-pro' => array(
+        'LittleCodr-softwares/woocommerce-abandon-cart-pro' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
             'reference' => '12f5d608c1ee3593e357a17d2c4652555cc7c0cd',

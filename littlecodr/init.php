@@ -8,13 +8,13 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 /**
- * Tyche Init
+ * LittleCodr Init
  *
- * @package Tyche
+ * @package LittleCodr
  * @since 1.0.0
  */
 
-class Tyche_WCAP_Init {
+class LittleCodr_WCAP_Init {
 
 	/**
 	 * Constructor
@@ -23,13 +23,13 @@ class Tyche_WCAP_Init {
 		require_once 'component/plugin-license/class-wcap-license.php';
 
 		add_filter( 'wcap_admin_menu_items', array( $this, 'wcap_admin_menu_items' ) );
-		add_filter( 'wcap_show_tyche_exclusive_tabs', '__return_true' );
-		add_filter( 'wcap_tyche_support_link', array( $this, 'wcap_tyche_support_link' ) );
+		add_filter( 'wcap_show_LittleCodr_exclusive_tabs', '__return_true' );
+		add_filter( 'wcap_LittleCodr_support_link', array( $this, 'wcap_LittleCodr_support_link' ) );
 		add_filter( 'wcap_connectors_page_description', array( $this, 'wcap_connectors_page_description' ) );
 		add_filter( 'wcap_facebook_messenger_doc_links', array( $this, 'wcap_facebook_messenger_doc_links' ) );
 
 		add_filter( 'woocommerce_abandoned_cart_docs_url', array( $this, 'wcap_abandoned_cart_docs_url' ) );
-		add_filter( 'woocommerce_abandoned_cart_support_url', array( $this, 'wcap_tyche_support_link' ) );
+		add_filter( 'woocommerce_abandoned_cart_support_url', array( $this, 'wcap_LittleCodr_support_link' ) );
 		add_filter( 'wcap_settings_based_on_license', array( $this, 'wcap_settings_based_on_license' ), 1 );
 		add_filter( 'wcap_include_additional_files', array( $this, 'wcap_include_additional_files' ), 1 );
 		add_filter( 'wcap_settings', array( $this, 'wcap_add_settings' ) );
@@ -67,38 +67,38 @@ class Tyche_WCAP_Init {
 		return $show_only_license_page;
 	}
 
-	public function wcap_tyche_support_link( $support_link ) {
-		return 'https://support.tychesoftwares.com/help/2285384554';
+	public function wcap_LittleCodr_support_link( $support_link ) {
+		return 'https://github.com/LittleCodr';
 	}
 
 	public function wcap_abandoned_cart_docs_url( $link ) {
-		return 'https://www.tychesoftwares.com/docs/docs/abandoned-cart-pro-for-woocommerce/';
+		return 'https://github.com/LittleCodr';
 	}
 
 	public function wcap_connectors_page_description( $desc ) {
 		return array(
 			'desc' => __( 'Please note that the plugin will no longer send reminder emails to abandoned carts if integration is enabled with a third party CRM/email marketing tool. If you still wish to send reminder emails with the integration enabled, please get in touch with %s.', 'woocommerce-ac' ),
-			'link' => '<a href="https://support.tychesoftwares.com/help/2285384554" target="_blank">support at Tyche Softwares</a>',
+			'link' => '<a href="https://github.com/LittleCodr" target="_blank">support at LittleCodr</a>',
 		);
 	}
 
 	public function wcap_facebook_messenger_doc_links( $links ) {
 		return array(
 			'desc' => __("Configure the plugin to send notifications to Facebook Messenger using the settings below. Please refer the %s following documentation %s to complete the setup.", "woocommerce-ac"),
-			'link' => '<a href="https://www.tychesoftwares.com/docs/docs/abandoned-cart-pro-for-woocommerce/send-abandoned-cart-reminder-notifications-using-facebook-messenger" target="_blank">', // translators: Documentation Link.
+			'link' => '<a href="https://github.com/LittleCodr" target="_blank">', // translators: Documentation Link.
 		);
 	}
 
 	public function wcap_fb_page_id_desc( $desc ) {
-		return __( 'Facebook Page ID in numberic format. You can find your page ID from <a href="https://www.tychesoftwares.com/docs/docs/abandoned-cart-pro-for-woocommerce/send-abandoned-cart-reminder-notifications-using-facebook-messenger#fbpageid" target="_blank">here</a>', 'woocommerce-ac' );
+		return __( 'Facebook Page ID in numberic format. You can find your page ID from <a href="https://github.com/LittleCodr" target="_blank">here</a>', 'woocommerce-ac' );
 	}
 	
 	public function wcap_fb_settings_desc( $desc ) {
-		return ____( 'Configure the plugin to send notifications to Facebook Messenger using the settings below. Please refer the <a href="https://www.tychesoftwares.com/docs/docs/abandoned-cart-pro-for-woocommerce/send-abandoned-cart-reminder-notifications-using-facebook-messenger" target="_blank">following documentation</a> to complete the setup.', 'woocommerce-ac' );
+		return ____( 'Configure the plugin to send notifications to Facebook Messenger using the settings below. Please refer the <a href="https://github.com/LittleCodr" target="_blank">following documentation</a> to complete the setup.', 'woocommerce-ac' );
 	}
 
 	public function wcap_fb_webhook_desc( $desc ) {
-		return __( 'This webhook needs to added to your <a href="https://www.tychesoftwares.com/docs/docs/abandoned-cart-pro-for-woocommerce/send-abandoned-cart-reminder-notifications-using-facebook-messenger#attachment_2719" target="_blank">Facebook Developer App</a> for the checkbox to appear on site.', 'woocommerce-ac' );
+		return __( 'This webhook needs to added to your <a href="https://github.com/LittleCodr" target="_blank">Facebook Developer App</a> for the checkbox to appear on site.', 'woocommerce-ac' );
 	}
 
 	public function wcap_settings_based_on_license( $settings ) {
@@ -175,7 +175,7 @@ class Tyche_WCAP_Init {
                 'license_missing.php', 
                 '', 
                 'woocommerce-abandon-cart-pro/',
-                WCAP_PLUGIN_PATH . '/tyche/templates/license_missing/' );
+                WCAP_PLUGIN_PATH . '/LittleCodr/templates/license_missing/' );
 		}
 	}
 
@@ -250,7 +250,7 @@ class Tyche_WCAP_Init {
 				'question' => 'I have a few abandoned carts. But why is the abandoned cart email not sent to those customers?',
 				'answer'   => 'There are several reasons abandoned cart reminder emails not being sent from your website. First, make sure the setting "Enable abandoned cart emails" located at Abandoned Carts > Settings and the email templates of our plugin are enabled. Also, the setting "Send Abandoned cart reminders automatically using Action Scheduler" needs to be enabled to send the reminder emails automatically using the action scheduler.
 					<br/><br/>
-					Our plugin relies on the action scheduler library which is present in the WooCommerce to send reminder emails. This action scheduler library needs the WP-Cron enabled. If the WP-Cron is disabled, the scheduler actions will run only when an admin page request occurs. If the WP-Cron is enabled but still, not working then it could be possible that your server has some restrictions which do not allow WP-Cron to run. You can refer to <a href="https://www.tychesoftwares.com/docs/docs/abandoned-cart-pro-for-woocommerce/wp_alternate_cron/?utm_source=userwebsite&utm_medium=link&utm_campaign=AbandonedCartProFAQTab" target="_blank">this post</a> for fixing the WP-Cron issue.',
+					Our plugin relies on the action scheduler library which is present in the WooCommerce to send reminder emails. This action scheduler library needs the WP-Cron enabled. If the WP-Cron is disabled, the scheduler actions will run only when an admin page request occurs. If the WP-Cron is enabled but still, not working then it could be possible that your server has some restrictions which do not allow WP-Cron to run. You can refer to <a href="https://github.com/LittleCodr" target="_blank">this post</a> for fixing the WP-Cron issue.',
 			),
 			3  => array(
 				'question' => 'Reminder emails are shown as sent in the "Reminders Sent" tab but why I or my customers are not receiving them?',
@@ -260,7 +260,7 @@ class Tyche_WCAP_Init {
 				'question' => 'How can I offer discount codes to customers in the abandoned cart reminder emails?',
 				'answer'   => 'When you add or edit an email template, it has a setting "Enter coupon code to add into email" where you can enter a coupon code that you have created from WooCommerce > Coupons page. You would also need to add the {{coupon.code}} merge tag in the Body section of the template. This will send the same coupon code in the reminder emails.
 					<br/><br/>
-					If you want to send a unique coupon code to each customer, then you need to enable the "Generate unique coupon codes" setting. You can set up the corresponding settings for the unique coupon code there. You can learn more about the coupon code settings <a href="https://www.tychesoftwares.com/docs/docs/abandoned-cart-pro-for-woocommerce/understanding-coupon-codes/?utm_source=userwebsite&utm_medium=link&utm_campaign=AbandonedCartProFAQTab" target="_blank">here</a>.',
+					If you want to send a unique coupon code to each customer, then you need to enable the "Generate unique coupon codes" setting. You can set up the corresponding settings for the unique coupon code there. You can learn more about the coupon code settings <a href="https://github.com/LittleCodr" target="_blank">here</a>.',
 			),
 			5  => array(
 				'question' => 'When the abandoned cart is considered as recovered?',
@@ -280,7 +280,7 @@ class Tyche_WCAP_Init {
 				'question' => 'How does the Abandoned cart plugin send out the cart recovery emails? Do I need a special setup?',
 				'answer'   => 'Our plugin uses the Action Scheduler Library to send the abandoned cart reminder emails automatically. This will reduce the dependency on the WP Cron and this does not require a special setup. The email sending is done every 15 minutes.
 					<br/><br/>
-					If you want, you can change this interval from the "Run Automated Scheduler after X minutes" under the "Setting for sending Emails & SMS using Action Scheduler" section in the Settings tab. You can check out more about the Action Scheduler <a href="https://www.tychesoftwares.com/moving-to-the-action-scheduler-library/?utm_source=userwebsite&utm_medium=link&utm_campaign=AbandonedCartProFAQTab" target="_blank">here</a>.',
+					If you want, you can change this interval from the "Run Automated Scheduler after X minutes" under the "Setting for sending Emails & SMS using Action Scheduler" section in the Settings tab. You can check out more about the Action Scheduler <a href="https://github.com/LittleCodr" target="_blank">here</a>.',
 			),
 			9  => array(
 				'question' => 'Why I am receiving only the manual reminder emails, not the automatic reminder emails?',
@@ -290,7 +290,7 @@ class Tyche_WCAP_Init {
 				'question' => 'Can I capture the customer’s email from the custom email field and send them a cart reminder email?',
 				'answer'   => 'Yes, this is possible to achieve with our Pro plugin. We have a setting "Capture email address from custom fields" which you can enable and add the class of the custom email field in the option "Class names of the form fields" located at Abandoned Carts’ General Settings page. This will capture the user’s email entered into the custom email field and then send a cart reminder email.
 					<br/><br/>
-					You can learn more about this feature <a href="https://www.tychesoftwares.com/docs/docs/abandoned-cart-pro-for-woocommerce/capture-email-address-from-custom-fields/?utm_source=userwebsite&utm_medium=link&utm_campaign=AbandonedCartProFAQTab" target="_blank">here</a>.',
+					You can learn more about this feature <a href="https://github.com/LittleCodr" target="_blank">here</a>.',
 			),
 			11 => array(
 				'question' => 'Can I send abandoned cart reminder emails to the store admin as well?',
@@ -306,7 +306,7 @@ class Tyche_WCAP_Init {
 					<br/><br/>
 					The email field in the ATC popup can be set as optional that means the popup to ask for an email address will be displayed, but the customer can simply click on the "No thanks" link & proceed to add the item to the cart.
 					<br/><br/>
-					You can learn more about the Add to cart popup modal <a href="https://www.tychesoftwares.com/docs/docs/abandoned-cart-pro-for-woocommerce/capture-visitor-email-address-before-checkout-page/?utm_source=userwebsite&utm_medium=link&utm_campaign=AbandonedCartProFAQTab" target="_blank">here</a>.',
+					You can learn more about the Add to cart popup modal <a href="https://github.com/LittleCodr" target="_blank">here</a>.',
 			),
 			14 => array(
 				'question' => 'Why does the Add to Cart popup modal not appear when I click on Add to Cart? I have all the settings set up correctly.',
@@ -316,12 +316,12 @@ class Tyche_WCAP_Init {
 					<br/><br/>
 					It is also possible that you are using the Add to Cart button on a custom page & not one of the default WooCommerce pages. If you wish for the popup template to appear on a custom page, please setup the same in the Rules section of the template.
 					<br/><br/>
-					You can <a href="https://support.tychesoftwares.com/help/2285384554/?utm_source=userwebsite&utm_medium=link&utm_campaign=AbandonedCartProFAQTab" target="_blank">contact</a> our support team to get this resolved as each custom button needs a different solution.',
+					You can <a href="https://github.com/LittleCodr" target="_blank">contact</a> our support team to get this resolved as each custom button needs a different solution.',
 			),
 			15 => array(
 				'question' => 'For multi-lingual websites, will your plugin send reminder emails to customers in the language in which the cart was abandoned when browsing the website?',
 				'answer'   => 'Yes, our plugin is compatible with the WPML and Polylang plugins. Using any of these plugins, you can send the abandoned cart reminder emails in different languages in which the customer has abandoned the cart.
-					You can learn more about it <a href="https://www.tychesoftwares.com/docs/docs/abandoned-cart-pro-for-woocommerce/multilingual/?utm_source=userwebsite&utm_medium=link&utm_campaign=AbandonedCartProFAQTab" target="_blank">here</a>.',
+					You can learn more about it <a href="https://github.com/LittleCodr" target="_blank">here</a>.',
 			),
 			16 => array(
 				'question' => 'What does the "Abandoned - Order Received" status mean?',
@@ -339,5 +339,5 @@ class Tyche_WCAP_Init {
 	}
 }
 
-// Initialize the Tyche plugin.
-$tyche_wcap_init = new Tyche_WCAP_Init();
+// Initialize the LittleCodr plugin.
+$LittleCodr_wcap_init = new LittleCodr_WCAP_Init();

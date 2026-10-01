@@ -70,7 +70,7 @@
 
 <div class="support-panel">
     <p style="font-size: 19px">
-        If your queries are not answered here, you can send get in touch with us <a href="https://support.tychesoftwares.com/help/2285384554" target="_blank">here</a> for some additional requirements. 
+        If your queries are not answered here, you can send get in touch with us <a href="https://github.com/LittleCodr" target="_blank">here</a> for some additional requirements. 
     </p>
 </div>
 <script>

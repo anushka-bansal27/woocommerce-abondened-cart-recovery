@@ -4,7 +4,7 @@
  *
  * Class for including WCAP files for the Admin.
  *
- * @author      Tyche Softwares
+ * @author      LittleCodr
  * @package     WCAP/Admin/Files
  * @category    Classes
  * @since       5.0

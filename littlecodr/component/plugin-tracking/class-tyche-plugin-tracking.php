@@ -1,25 +1,25 @@
 <?php
 /**
- * Tyche Softwares.
+ * LittleCodr.
  *
  * Plugin Tracking Class.
  *
- * @author      Tyche Softwares
- * @package     TycheSoftwares/PluginTracking
+ * @author      LittleCodr
+ * @package     LittleCodr/PluginTracking
  * @category    Classes
  * @since       1.2
  */
 
 defined( 'ABSPATH' ) || exit;
 
-if ( ! class_exists( 'Tyche_Plugin_Tracking' ) ) {
+if ( ! class_exists( 'LittleCodr_Plugin_Tracking' ) ) {
 
 	/**
 	 * Plugin Tracking.
 	 *
 	 * @since 1.1
 	 */
-	class Tyche_Plugin_Tracking {
+	class LittleCodr_Plugin_Tracking {
 
 		/**
 		 * Version.
@@ -33,7 +33,7 @@ if ( ! class_exists( 'Tyche_Plugin_Tracking' ) ) {
 		 *
 		 * @var string $api_url
 		 */
-		protected $api_url = 'https://tracking.tychesoftwares.com/v2/';
+		protected $api_url = 'https://tracking.LittleCodr.com/v2/';
 
 		/**
 		 * Plugin Name.

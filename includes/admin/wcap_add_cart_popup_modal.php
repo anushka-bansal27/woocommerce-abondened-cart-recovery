@@ -2,7 +2,7 @@
 /**
  * It will fetch the Add to cart data, generate and populate data in the modal.
  *
- * @author  Tyche Softwares
+ * @author  LittleCodr
  * @package Abandoned-Cart-Pro-for-WooCommerce/Admin/Settings
  * @since 6.0
  */

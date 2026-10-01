@@ -1,7 +1,7 @@
 <?php
 /**
  * It will display the email template listing.
- * @author   Tyche Softwares
+ * @author   LittleCodr
  * @package Abandoned-Cart-Pro-for-WooCommerce/Admin/SMS Reminders Class
  * @since 7.9
  */

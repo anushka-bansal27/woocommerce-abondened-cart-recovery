@@ -2,7 +2,7 @@
 
 /**
  * License missing template. To be displayed on pages where license is mandatory 
- * @author   Tyche Softwares
+ * @author   LittleCodr
  * @package Abandoned-Cart-Pro-for-WooCommerce/License
  * @since 6.0
  */
@@ -14,7 +14,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 ?>
 
 <div class="wcap_license_invalid" style="text-align: center;">
-    <img src="https://www.tychesoftwares.com/wp-content/themes/tyche-softwares/assets/images/icons/Tyche-plugins-SHOPPINGCART.png" height="150px" width="150px"> 
+    <img src="https://github.com/LittleCodr" height="150px" width="150px"> 
     <p style='font-size:12pt; color:#b00606;'>
         <?php
             printf(
@@ -29,7 +29,7 @@ if ( ! defined( 'ABSPATH' ) ) {
             printf(
                 /* translators: %1$s is replaced with support link */
                 __( 'If you facing any issues in activating the license then do %s and we shall be more than happy to help you.', 'woocommerce-ac' ),
-                '<a href="https://support.tychesoftwares.com/help/2285384554" target="_blank">contact us</a>'
+                '<a href="https://github.com/LittleCodr" target="_blank">contact us</a>'
             )
         ?>
     </p>
@@ -42,7 +42,7 @@ if ( ! defined( 'ABSPATH' ) ) {
             );
         ?>
     </p>
-    <a href="https://www.tychesoftwares.com/store/premium-plugins/woocommerce-abandoned-cart-pro/" class="button button-primary" target="_blank">
+    <a href="https://github.com/LittleCodr" class="button button-primary" target="_blank">
         <?php _e( 'Buy Abandoned Cart Pro', 'woocommerce-ac' ); ?>
     </a>
 </div>

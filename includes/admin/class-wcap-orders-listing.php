@@ -2,7 +2,7 @@
 /**
  * It will display the Order Status for Recovered Orders
  *
- * @author  Tyche Softwares
+ * @author  LittleCodr
  * @package Abandoned-Cart-Pro-for-WooCommerce/Admin/Report
  * @since 8.4
  */

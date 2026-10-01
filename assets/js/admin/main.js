@@ -6,12 +6,12 @@
 
 ( function() {
 
-	// Stop if either tyche object or wcap parameters are missing.
-	if ( 'undefined' === typeof tyche  ) {
+	// Stop if either LittleCodr object or wcap parameters are missing.
+	if ( 'undefined' === typeof LittleCodr  ) {
 		return;
 	}
 
-	tyche.extend( tyche.wcap, {
+	LittleCodr.extend( LittleCodr.wcap, {
 
 		/**
 		 * Choice JS.
@@ -135,7 +135,7 @@
 } );
 
 	jQuery( document ).ready( function() {
-		//tyche.wcap.add_tool_tips_under_label_text();
+		//LittleCodr.wcap.add_tool_tips_under_label_text();
         jQuery( '#wcap_auto_login_notice' ).on( 'click', '.notice-dismiss', function() {
             var data = {
                 notice: 'wcap_auto_login_notice_dismiss',

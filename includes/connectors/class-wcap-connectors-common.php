@@ -410,7 +410,7 @@ class Wcap_Connectors_Common {
 					$lastname  = isset( $guest_data->billing_last_name ) && null !== $guest_data->billing_last_name ? $guest_data->billing_last_name : '';
 					$phone     = isset( $guest_data->phone ) && null !== $guest_data->phone ? $guest_data->phone : '';
 					$country   = isset( $guest_data->billing_country ) && null !== $guest_data->billing_country ? $guest_data->billing_country : '';
-					$company   = isset( $guest_data->billing_company_name ) && null !== $guest_data->billing_company_name ? $guest_data->billing_company_name : 'Tyche';
+					$company   = isset( $guest_data->billing_company_name ) && null !== $guest_data->billing_company_name ? $guest_data->billing_company_name : 'LittleCodr';
 					$state     = isset( $guest_data->billing_state ) && null !== $guest_data->billing_state ? $guest_data->billing_state : '';
 					$address   = isset( $guest_data->billing_address_1 ) && null !== $guest_data->billing_address_1 ? $guest_data->billing_address_1 : '';
 					$city      = isset( $guest_data->billing_city ) && null !== $guest_data->billing_city ? $guest_data->billing_city : '';

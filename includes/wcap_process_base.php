@@ -4,7 +4,7 @@
  *
  * This file will run background processes.
  *
- * @author   Tyche Softwares
+ * @author   LittleCodr
  * @package  Abandoned-Cart-Pro-for-WooCommerce/Processes
  * @category Processes
  * @since    8.6.0
@@ -154,7 +154,7 @@ class Wcap_Process_Base {
 		$wcap_date_formatted_range = date( 'd F', strtotime( $start_date ) ) . ' - ' . date( 'd F Y', strtotime( $end_date ) ); // phpcs:ignore
 
 		// translators: 4 digit current year.
-		$wcap_footer_text = sprintf( __( '&copy; 2012-%1$s Tyche Softwares, All Rights Reserved.', 'woocommerce-ac' ), date( 'Y' ) ); // phpcs:ignore
+		$wcap_footer_text = sprintf( __( '&copy; 2012-%1$s LittleCodr, All Rights Reserved.', 'woocommerce-ac' ), date( 'Y' ) ); // phpcs:ignore
 		$wcap_footer_text = apply_filters( 'wcap_email_footer_text', $wcap_footer_text );
 
 		$wcap_get_last_report_data = get_option( 'wcap_last_email_report_data' );

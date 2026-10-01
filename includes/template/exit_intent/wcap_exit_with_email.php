@@ -2,7 +2,7 @@
 
 /**
  * Add to Cart popup modal template, it wll be displayed on shop, category, and products pages. 
- * @author   Tyche Softwares
+ * @author   LittleCodr
  * @package Abandoned-Cart-Pro-for-WooCommerce/Frontend/ATC-Template
  * @since 6.0
  */

@@ -1,7 +1,7 @@
 <?php
 /**
  * It will display the Dashboard data.
- * @author  Tyche Softwares
+ * @author  LittleCodr
  * @package Abandoned-Cart-Pro-for-WooCommerce/Admin/Report
  * @since 5.0
  */

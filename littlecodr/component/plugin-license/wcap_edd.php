@@ -2,7 +2,7 @@
 /**
  * It will handle the license activate & deactivate funtionality.
  *
- * @author   Tyche Softwares
+ * @author   LittleCodr
  * @package Abandoned-Cart-Pro-for-WooCommerce/Admin/License
  * @since   5.0
  */

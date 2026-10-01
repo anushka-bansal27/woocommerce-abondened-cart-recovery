@@ -4,7 +4,7 @@
  *
  * Load Aelia Currency Switcher
  * 
- * @author   Tyche Softwares
+ * @author   LittleCodr
  * @package  Abandoned-Cart-Pro-for-WooCommerce/FB-Messenger
  * @category Modules
  * @since    7.11.0

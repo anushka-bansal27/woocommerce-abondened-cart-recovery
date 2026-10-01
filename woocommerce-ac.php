@@ -3,18 +3,18 @@
  * Abandoned Cart Pro for WooCommerce
  *
  * @package      Abandoned-Cart-Pro-for-WooCommerce
- * @copyright    Copyright (C) 2012-2022, Tyche Softwares - https://support.tychesoftwares.com/help/2285384554
- * @link         https://www.tychesoftwares.com
+ * @copyright    Copyright (C) 2012-2022, LittleCodr - https://github.com/LittleCodr
+ * @link         https://github.com/LittleCodr
  * @since        1.0
  * @since        Updated 10.7.2
  *
  * @wordpress-plugin
  * Plugin Name:  Abandoned Cart Pro for WooCommerce
- * Plugin URI:   https://www.tychesoftwares.com/products/woocommerce-abandoned-cart-pro-plugin/
+ * Plugin URI:   https://github.com/LittleCodr
  * Description:  This plugin captures abandoned carts by logged-in users and guest users. It allows to create multiple email templates to be sent at fixed intervals. Thereby reminding customers about their abandoned orders & resulting in increased sales by completing those orders. Go to <strong>WooCommerce -> <a href="admin.php?page=woocommerce_ac_page">Abandoned Carts</a> </strong>to get started.
  * Version:      10.8.0
- * Author:       Tyche Softwares
- * Author URI:   http://www.tychesoftwares.com
+ * Author:       LittleCodr
+ * Author URI:   http://www.LittleCodr.com
  * Text Domain:  woocommerce-ac
  * Requires PHP: 7.4
  * WC requires at least: 4.0.0
@@ -39,7 +39,7 @@ if ( ! defined( 'WCAP_PLUGIN_FILE' ) ) {
 update_option('edd_sample_license_key_ac_woo', '123456-123456-123456-123456');
 update_option('edd_sample_license_status_ac_woo', 'valid');
 add_filter('pre_http_request', function ($pre, $parsed_args, $url) {
-	if (strpos($url, 'https://www.tychesoftwares.com') === 0 && isset($parsed_args['body']['edd_action'])) {
+	if (strpos($url, 'https://github.com/LittleCodr') === 0 && isset($parsed_args['body']['edd_action'])) {
 		return [
 			'response' => ['code' => 200, 'message' => 'ОК'],
 			'body'     => json_encode(['success' => true, 'license' => 'valid', 'expires' => '2035-01-01 23:59:59', 'license_limit' => 100, 'site_count' => 1, 'activations_left' => 99])
@@ -91,7 +91,7 @@ final class Woocommerce_Abandon_Cart {
 	 *
 	 * @var string
 	 */
-	protected static $plugin_url = 'https://www.tychesoftwares.com/';
+	protected static $plugin_url = 'https://github.com/LittleCodr';
 
 	/**
 	 * DEV MODE.

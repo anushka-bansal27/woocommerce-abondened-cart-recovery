@@ -60,7 +60,7 @@ class Wcap_Activecampaign extends Wcap_Connector {
 	public $default_connection = array(
 		'name'    => 'Abandoned Cart Pro',
 		'service' => 'Abandoned Cart Pro',
-		'logoUrl' => 'https://live.tychesoftwares.com/wp-content/uploads/2020/05/mascot-cart-1.png',
+		'logoUrl' => 'https://live.LittleCodr.com/wp-content/uploads/2020/05/mascot-cart-1.png',
 	);
 	/**
 	 * Construct. Add hooks and filters.

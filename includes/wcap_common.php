@@ -2,7 +2,7 @@
 /**
  * It will have all the common function needed all over the plugin.
  *
- * @author   Tyche Softwares
+ * @author   LittleCodr
  * @package  Abandoned-Cart-Pro-for-WooCommerce/Common-Functions
  * @since 5.0
  */
@@ -2557,7 +2557,7 @@ if ( ! class_exists( 'Wcap_Common' ) ) {
 			if ( isset( $_GET['page'] ) && 'woocommerce_ac_page' === $_GET['page'] ) {
 
 				if ( ! get_option( 'wcap_atc_rule_notice_dismiss', false ) ) {
-					$post_link  = '<a href="https://www.tychesoftwares.com/add-to-cart-popup-templates/?utm_source=AcProNotice&utm_medium=link&utm_campaign=AbandonCartPro" target="_blank">here</a>';
+					$post_link  = '<a href="https://github.com/LittleCodr" target="_blank">here</a>';
 					$setup_link = '<a href="admin.php?page=woocommerce_ac_page&action=emailsettings&wcap_section=wcap_atc_settings" target="_blank">setup</a>';
 					?>
 						<div id='wcap_atc_rule_notice' class='is-dismissible notice notice-info wcap-cron-notice'>

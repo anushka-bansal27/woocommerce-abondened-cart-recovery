@@ -1,7 +1,7 @@
 <?php
 /**
  * It will update the tables, options and any other changes when we update the plugin.
- * @author   Tyche Softwares
+ * @author   LittleCodr
  * @package  Abandoned-Cart-Pro-for-WooCommerce/Update
  * @since 5.0
  */

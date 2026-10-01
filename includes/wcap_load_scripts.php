@@ -4,7 +4,7 @@
  *
  * This files will load the JavaScript files at front end for Add To Cart Popup Modal and it will also load scripts for migrating the data of LITE version to PRO version at backend.
  *
- * @author   Tyche Softwares
+ * @author   LittleCodr
  * @package  Abandoned-Cart-Pro-for-WooCommerce/Classes
  * @category Classes
  * @since    5.0
@@ -49,8 +49,8 @@ if ( ! class_exists( 'Wcap_Load_Scripts' ) ) {
 				wp_enqueue_script( 'wcap_dashboard_widget', esc_url( WCAP_PLUGIN_URL ) . '/assets/js/admin/wcap_dashboard_widget.js', array(), WCAP_PLUGIN_VERSION );
 			}
 			wp_enqueue_script(
-				'wcap-tyche',
-				esc_url( WCAP_PLUGIN_URL ) . '/assets/js/tyche.js',
+				'wcap-LittleCodr',
+				esc_url( WCAP_PLUGIN_URL ) . '/assets/js/LittleCodr.js',
 				array(),
 				WCAP_PLUGIN_VERSION,
 				false

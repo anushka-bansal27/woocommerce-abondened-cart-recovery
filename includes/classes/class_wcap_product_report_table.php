@@ -4,7 +4,7 @@
  *
  * It will show Abandoned & Recovered Product data on Product Reports tab.
  *
- * @author   Tyche Softwares
+ * @author   LittleCodr
  * @package  Abandoned-Cart-Pro-for-WooCommerce/Classes
  * @category Classes
  * @since    5.0

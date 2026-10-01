@@ -12,7 +12,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 ?>
 
-<?php $display_links = apply_filters( 'wcap_show_tyche_exclusive_tabs', false ); ?>
+<?php $display_links = apply_filters( 'wcap_show_LittleCodr_exclusive_tabs', false ); ?>
 <template id="facebook_messenger">
         <!-- Content Area -->
         <div class="ac-content-area" id="fb_cover" >
@@ -141,7 +141,7 @@ if ( ! defined( 'ABSPATH' ) ) {
                                                         <input class="ib-md" type="text" placeholder="<?php esc_html_e( 'Enter Your Facebook ID', 'woocommerce-ac' ) ; ?>"  id="wcap_fb_page_id" name="wcap_fb_page_id"  v-model="settings.wcap_fb_page_id" />
                                                     </div>
                                                     <?php if( $display_links ): ?>
-                                                        <?php echo __('You can find your page ID from <a href="https://www.tychesoftwares.com/docs/docs/abandoned-cart-pro-for-woocommerce/send-abandoned-cart-reminder-notifications-using-facebook-messenger#fbpageid" target="_blank">here.</a>', 'woocommerce-ac');//phpcs:ignore ?>
+                                                        <?php echo __('You can find your page ID from <a href="https://github.com/LittleCodr" target="_blank">here.</a>', 'woocommerce-ac');//phpcs:ignore ?>
                                                     <?php endif; ?>
                                                 </div>
                                                 </div>
@@ -215,7 +215,7 @@ if ( ! defined( 'ABSPATH' ) ) {
                     <?php printf(
 							// translators: Documentation Link.
 							__('This webhook needs to added to your %s Facebook Developer App %s for the checkbox to appear on site.', "woocommerce-ac"),
-							'<a href="https://www.tychesoftwares.com/docs/docs/abandoned-cart-pro-for-woocommerce/send-abandoned-cart-reminder-notifications-using-facebook-messenger#attachment_2719" target="_blank">',								
+							'<a href="https://github.com/LittleCodr" target="_blank">',								
 							'</a>'
 					); ?>	
                 <?php else: ?>	

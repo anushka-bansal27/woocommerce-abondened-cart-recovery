@@ -4,7 +4,7 @@
  * Also it will also handle the email open and unsubscribe data.
  * Also, if the url contain the email address then it will store email in the session. 
  *
- * @author   Tyche Softwares
+ * @author   LittleCodr
  * @package Abandoned-Cart-Pro-for-WooCommerce/Frontend/Cart-Populate
  * @since 5.0
  */

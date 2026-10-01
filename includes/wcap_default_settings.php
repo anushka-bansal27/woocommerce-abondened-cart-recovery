@@ -1,7 +1,7 @@
 <?php
 /**
  * It will add the default setting and the email templates.
- * @author   Tyche Softwares
+ * @author   LittleCodr
  * @package  Abandoned-Cart-Pro-for-WooCommerce/Setting
  * @since 2.3.5
  * 

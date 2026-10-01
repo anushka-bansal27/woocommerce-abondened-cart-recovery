@@ -4,7 +4,7 @@
  *
  * It will show Abandoned Carts data on Abandoned Orders tab.
  * 
- * @author   Tyche Softwares
+ * @author   LittleCodr
  * @package  Abandoned-Cart-Pro-for-WooCommerce/Classes
  * @category Classes
  * @since    5.0

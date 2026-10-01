@@ -1,7 +1,7 @@
 <?php
 /** 
  * It will delete the record from the database.
- * @author  Tyche Softwares
+ * @author  LittleCodr
  * @package Abandoned-Cart-Pro-for-WooCommerce/Admin/Action
  * @since 5.0
  *

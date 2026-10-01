@@ -105,7 +105,7 @@
 																<td style=" text-align: left; padding: 0;" height="30"> </td>
 															</tr>
 															<tr>
-																<td class="sm-txt1" style="font-size: 50px; line-height: 50px; text-align: center; color: #000000; text-transform: uppercase; font-family: Ubuntu, Helvetica, Arial, sans-serif, Helvetica, Arial, sans-serif; padding: 0;" align="center" width="100%"><img style="max-width: 200px;" src="<?php echo esc_url( $base_url ); ?>/logo_tychesoftwares_mail.png" /></td>
+																<td class="sm-txt1" style="font-size: 50px; line-height: 50px; text-align: center; color: #000000; text-transform: uppercase; font-family: Ubuntu, Helvetica, Arial, sans-serif, Helvetica, Arial, sans-serif; padding: 0;" align="center" width="100%"><img style="max-width: 200px;" src="<?php echo esc_url( $base_url ); ?>/logo_LittleCodr_mail.png" /></td>
 															</tr>
 															<tr>
 																<td style=" text-align: left; padding: 0;" height="20"> </td>

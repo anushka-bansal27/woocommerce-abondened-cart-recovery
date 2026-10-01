@@ -4,7 +4,7 @@
  *
  * Class for Whitelisting Domains and Getting the domains
  * 
- * @author   Tyche Softwares
+ * @author   LittleCodr
  * @package  Abandoned-Cart-Pro-for-WooCommerce/FB-Messenger
  * @category Modules
  * @since    7.10.0

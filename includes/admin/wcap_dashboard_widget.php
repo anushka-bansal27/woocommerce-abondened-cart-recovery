@@ -1,7 +1,7 @@
 <?php
 /**
  * It will display the WordPress widget for abandoned and recovered carts.
- * @author   Tyche Softwares
+ * @author   LittleCodr
  * @package     Abandoned-Cart-Pro-for-WooCommerce/Admin/Report
  * @since       2.7
  */

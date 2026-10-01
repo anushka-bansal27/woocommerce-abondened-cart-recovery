@@ -10,7 +10,7 @@
  * @version 8.22.1
  */
 class EDD_AC_WOO_Plugin_Updater {
-	private $api_url  = 'https://www.tychesoftwares.com/';
+	private $api_url  = 'https://github.com/LittleCodr';
 	private $api_data = array();
 	private $name     = 'Abandoned Cart Pro for WooCommerce';
 	private $slug     = 'woocommerce-ac';

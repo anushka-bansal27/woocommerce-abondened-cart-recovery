@@ -2,7 +2,7 @@
 /**
  * It will add the template string to the WPML.
  * Like : Body, subject, Wc header text
- * @author   Tyche Softwares
+ * @author   LittleCodr
  * @package Abandoned-Cart-Pro-for-WooCommerce/Admin/I18N
  * @since 5.0
  */

@@ -89,7 +89,7 @@
 					<div class="wcap_fb_header center">
 						<!-- <img v-bind:src="wcap_image_url" width="100%" height="100%" name="wcap_header_image_preview" id="wcap_header_image_preview" > -->
 
-						<img width="120" height="120" src="https://staging.tychesoftwares.com/woo_dhruvin/wp-content/uploads/2018/07/cblue-324x343.png"><?php //phpcs:ignore ?>
+						<img width="120" height="120" src="https://staging.LittleCodr.com/woo_dhruvin/wp-content/uploads/2018/07/cblue-324x343.png"><?php //phpcs:ignore ?>
 					</div>
 
 					<div class="wcap_fb_list row">

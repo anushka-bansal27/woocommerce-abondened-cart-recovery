@@ -1,25 +1,25 @@
 <?php
 /**
- * Tyche Softwares.
+ * LittleCodr.
  *
  * Plugin Deactivation Class.
  *
- * @author      Tyche Softwares
- * @package     TycheSoftwares/PluginDeactivation
+ * @author      LittleCodr
+ * @package     LittleCodr/PluginDeactivation
  * @category    Classes
  * @since       1.3
  */
 
 defined( 'ABSPATH' ) || exit;
 
-if ( ! class_exists( 'Tyche_Plugin_Deactivation' ) ) {
+if ( ! class_exists( 'LittleCodr_Plugin_Deactivation' ) ) {
 
 	/**
 	 * Plugin Deactivation.
 	 *
 	 * @since 1.1
 	 */
-	class Tyche_Plugin_Deactivation {
+	class LittleCodr_Plugin_Deactivation {
 
 		/**
 		 * Version.
@@ -40,7 +40,7 @@ if ( ! class_exists( 'Tyche_Plugin_Deactivation' ) ) {
 		 *
 		 * @var string $api_url
 		 */
-		protected $api_url = 'https://tracking.tychesoftwares.com/v2/';
+		protected $api_url = 'https://tracking.LittleCodr.com/v2/';
 
 		/**
 		 * Plugin Name.
@@ -90,7 +90,7 @@ if ( ! class_exists( 'Tyche_Plugin_Deactivation' ) ) {
 			}
 
 			add_action( 'admin_print_scripts-plugins.php', array( $this, 'enqueue_scripts' ), 30 );
-			add_action( 'wp_ajax_tyche_plugin_deactivation_submit_action', array( &$this, 'tyche_plugin_deactivation_submit_action' ) );
+			add_action( 'wp_ajax_LittleCodr_plugin_deactivation_submit_action', array( &$this, 'LittleCodr_plugin_deactivation_submit_action' ) );
 			add_filter( 'plugin_action_links_' . $this->plugin_base, array( &$this, 'plugin_action_links' ) );
 		}
 
@@ -150,21 +150,21 @@ if ( ! class_exists( 'Tyche_Plugin_Deactivation' ) ) {
 			}
 
 			wp_enqueue_style(
-				'tyche_plugin_deactivation',
+				'LittleCodr_plugin_deactivation',
 				$this->api_url . '/assets/plugin-deactivation/css/style.css',
 				array(),
 				$this->plugin_version
 			);
 
 			wp_register_script(
-				'tyche_plugin_deactivation_' . $this->plugin_short_name,
+				'LittleCodr_plugin_deactivation_' . $this->plugin_short_name,
 				$this->script_file,
-				array( 'jquery', 'wcap-tyche' ),
+				array( 'jquery', 'wcap-LittleCodr' ),
 				$this->plugin_version,
 				true
 			);
 
-			$request = wp_remote_get( $this->api_url . '?action=fetch-deactivation-data&plugin=' . $this->plugin_short_name . '&language=' . apply_filters( 'tyche_plugin_deactivation_language', 'en' ) . '&version=' . $this->version );
+			$request = wp_remote_get( $this->api_url . '?action=fetch-deactivation-data&plugin=' . $this->plugin_short_name . '&language=' . apply_filters( 'LittleCodr_plugin_deactivation_language', 'en' ) . '&version=' . $this->version );
 
 			if ( is_wp_error( $request ) || 200 !== wp_remote_retrieve_response_code( $request ) ) {
 				return false; // In case the user is offline or something else that could have probably caused an error.
@@ -177,17 +177,17 @@ if ( ! class_exists( 'Tyche_Plugin_Deactivation' ) ) {
 			}
 
 			wp_localize_script(
-				'tyche_plugin_deactivation_' . $this->plugin_short_name,
-				'tyche_plugin_deactivation_' . $this->plugin_short_name . '_js',
+				'LittleCodr_plugin_deactivation_' . $this->plugin_short_name,
+				'LittleCodr_plugin_deactivation_' . $this->plugin_short_name . '_js',
 				array(
 					'deactivation_data'    => $data,
 					'ajax_url'             => admin_url( 'admin-ajax.php' ),
-					'nonce'                => wp_create_nonce( 'tyche_plugin_deactivation_submit_action' ),
+					'nonce'                => wp_create_nonce( 'LittleCodr_plugin_deactivation_submit_action' ),
 					'deactivation_req_msg' => __( 'Please select a reason for deactivation!', $this->plugin_locale ),
 				)
 			);
 
-			wp_enqueue_script( 'tyche_plugin_deactivation_' . $this->plugin_short_name );
+			wp_enqueue_script( 'LittleCodr_plugin_deactivation_' . $this->plugin_short_name );
 		}
 
 		/**
@@ -195,9 +195,9 @@ if ( ! class_exists( 'Tyche_Plugin_Deactivation' ) ) {
 		 *
 		 * @since  1.1
 		 */
-		public function tyche_plugin_deactivation_submit_action() {
+		public function LittleCodr_plugin_deactivation_submit_action() {
 
-			if ( ! wp_verify_nonce( $_POST['nonce'], 'tyche_plugin_deactivation_submit_action' ) || ! isset( $_POST['reason_id'] ) || ! isset( $_POST['reason_text'] ) || ! isset( $_POST['plugin_short_name'] ) || ! isset( $_POST['plugin_name'] ) ) { // phpcs:ignore
+			if ( ! wp_verify_nonce( $_POST['nonce'], 'LittleCodr_plugin_deactivation_submit_action' ) || ! isset( $_POST['reason_id'] ) || ! isset( $_POST['reason_text'] ) || ! isset( $_POST['plugin_short_name'] ) || ! isset( $_POST['plugin_name'] ) ) { // phpcs:ignore
 				wp_send_json_error( 0 );
 			}
 

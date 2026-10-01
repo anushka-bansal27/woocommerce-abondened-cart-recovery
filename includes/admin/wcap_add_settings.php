@@ -2,7 +2,7 @@
 /**
  * It will add all the settings needed for the plugin.
  *
- * @author  Tyche Softwares
+ * @author  LittleCodr
  *
  * @since 2.3.8
  *
@@ -136,7 +136,7 @@ if ( ! class_exists( 'Wcap_Add_Settings' ) ) {
 						/* translators: %1$s: link to the plugin's Settings screen, %2$s: link to feature documentation */
 						esc_html__( 'New in Abandoned Cart Pro: AI assistants (like Claude, connected via MCP) can answer questions about your abandoned-cart data — top abandoned products, recovered revenue, recovery rates, and template performance. This is off by default. %1$s or %2$s.', 'woocommerce-ac' ),
 						'<a href="' . esc_url( $settings_url ) . '">' . esc_html__( 'Turn it on in Settings', 'woocommerce-ac' ) . '</a>',
-						'<a href="https://www.tychesoftwares.com/docs/docs/abandoned-cart-pro-for-woocommerce-new/connect-abandoned-cart-pro-to-ai-assistants-using-mcp/" target="_blank">' . esc_html__( 'learn more', 'woocommerce-ac' ) . '</a>'
+						'<a href="https://github.com/LittleCodr" target="_blank">' . esc_html__( 'learn more', 'woocommerce-ac' ) . '</a>'
 					);
 					?>
 				</p>

@@ -32,7 +32,7 @@ if ( is_array( $additional_files ) ) {
 	}
 }
 
-$display_tabs = apply_filters( 'wcap_show_tyche_exclusive_tabs', false );
+$display_tabs = apply_filters( 'wcap_show_LittleCodr_exclusive_tabs', false );
 wp_localize_script( 'wcap_settings', 'wcap_config', array( 'show_tabs' => $display_tabs ) );
 ?>
 

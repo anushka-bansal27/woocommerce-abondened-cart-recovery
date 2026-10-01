@@ -2,7 +2,7 @@
 /**
  * It will delete the abandoned cart if order is placed before the cutoff time.
  * It will also, create the post meta for the abandoned cart. It will create after the cutoff time.
- * @author   Tyche Softwares
+ * @author   LittleCodr
  * @package Abandoned-Cart-Pro-for-WooCommerce/Frontend/Place-Order
  * @since 5.0
  */

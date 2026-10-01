@@ -2,7 +2,7 @@
 /**
  * This file will trigger and send follow-up emails.
  *
- * @author  Tyche Softwares
+ * @author  LittleCodr
  * @package Abandoned-Cart-Pro-for-WooCommerce/FollowUp
  * @since 8.21.0
  */

@@ -1,7 +1,7 @@
 <?php
 /**
  * It will capture the logged-in and visitor and guest users cart.
- * @author   Tyche Softwares
+ * @author   LittleCodr
  * @package Abandoned-Cart-Pro-for-WooCommerce/Frontend/Cart-Capture
  * @since 5.0
  */

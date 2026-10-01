@@ -2,7 +2,7 @@
 /**
  * It will display the menu of the Abadoned cart.
  *
- * @author   Tyche Softwares
+ * @author   LittleCodr
  * @package Abandoned-Cart-Pro-for-WooCommerce/Admin/Menu
  * @since 1.0
  */

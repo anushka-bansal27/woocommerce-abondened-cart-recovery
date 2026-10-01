@@ -4,7 +4,7 @@
  *
  * AES counter (CTR) mode implementation in PHP
  * 
- * @author   Tyche Softwares
+ * @author   LittleCodr
  * @package  Abandoned-Cart-Pro-for-WooCommerce/Encrypt-Decrypt-Data
  * @since    3.0
  */

@@ -1,7 +1,7 @@
 <?php
 /**
  * Add to Cart popup modal template, it wll be displayed on shop, category, and products pages. 
- * @author   Tyche Softwares
+ * @author   LittleCodr
  * @package Abandoned-Cart-Pro-for-WooCommerce/Frontend/Unsubscribe Landing Page
  * @since 6.0
  */

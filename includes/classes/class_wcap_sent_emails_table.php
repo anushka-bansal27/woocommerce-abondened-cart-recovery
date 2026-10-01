@@ -4,7 +4,7 @@
  *
  * It will show records of the Abandoned cart reminder email which is sent to customers on Sent Email tab.
  * 
- * @author   Tyche Softwares
+ * @author   LittleCodr
  * @package  Abandoned-Cart-Pro-for-WooCommerce/Classes
  * @category Classes
  * @since    5.0

@@ -4,7 +4,7 @@
  *
  * This file will load all hooks, filters which will be used all over the plugin.
  *
- * @author   Tyche Softwares
+ * @author   LittleCodr
  * @package  Abandoned-Cart-Pro-for-WooCommerce/Classes
  * @category Classes
  * @since    5.0
@@ -287,7 +287,7 @@ if ( ! class_exists( 'Wcap_Load_Hooks' ) ) {
 		 * @since 8.15.0
 		 */
 		public static function wcap_as_failed_notice() {
-			$as_link = "<a href='https://www.tychesoftwares.com/moving-to-the-action-scheduler-library/' target='_blank'>Action Scheduler library</a>";
+			$as_link = "<a href='https://github.com/LittleCodr' target='_blank'>Action Scheduler library</a>";
 			?>
 			<div class="notice notice-error">
 				<p>
@@ -532,7 +532,7 @@ if ( ! class_exists( 'Wcap_Load_Hooks' ) ) {
 		public static function set_wcap_plugin_update_icon( $transient ) {
 			if ( isset( $transient->response ) && isset( $transient->response['woocommerce-abandon-cart-pro/woocommerce-ac.php'] ) ) {
 				$transient->response['woocommerce-abandon-cart-pro/woocommerce-ac.php']->icons = array(
-					'default' => 'https://media.tychesoftwares.com/wp-content/uploads/2018/12/Abandoned-Cart-Pro-for-WooCommerce-300x225.jpg',
+					'default' => 'https://media.LittleCodr.com/wp-content/uploads/2018/12/Abandoned-Cart-Pro-for-WooCommerce-300x225.jpg',
 				);
 			}
 			return $transient;

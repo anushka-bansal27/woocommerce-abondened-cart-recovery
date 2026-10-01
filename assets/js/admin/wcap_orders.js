@@ -455,7 +455,7 @@ new Vue({
 					
 					
 					if ( 'print' == type ) {
-						tyche.wcap.printCarts();
+						LittleCodr.wcap.printCarts();
 						jQuery( '#wcap-view-cart-data' ).html( '' )
 					} else {
 						window.location = response.url;

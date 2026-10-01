@@ -1,7 +1,7 @@
 <?php
 /**
  * It will capture the coupon codes and apply the coupon code directly when ac reminder emails have the coupon.
- * @author   Tyche Softwares
+ * @author   LittleCodr
  * @package Abandoned-Cart-Pro-for-WooCommerce/Frontend/Coupon
  * @since 5.0
  */

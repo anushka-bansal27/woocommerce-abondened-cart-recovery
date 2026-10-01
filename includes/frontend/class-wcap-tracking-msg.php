@@ -2,7 +2,7 @@
 /**
  * This class will add messages as needed informing users of data being tracked.
  *
- * @author   Tyche Softwares
+ * @author   LittleCodr
  * @package  Abandoned-Cart-Pro-for-WooCommerce/Classes
  * @since 7.8
  */

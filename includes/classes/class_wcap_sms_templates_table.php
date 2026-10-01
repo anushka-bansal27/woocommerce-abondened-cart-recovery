@@ -5,7 +5,7 @@
  * It will show list of Active and deactive SMS templates in
  * WooCommerce->Abandoned Carts->Cart Recovery->SMS Notifications
  *
- * @author   Tyche Softwares
+ * @author   LittleCodr
  * @package  Abandoned-Cart-Pro-for-WooCommerce/Classes
  * @category Classes
  * @since    7.9

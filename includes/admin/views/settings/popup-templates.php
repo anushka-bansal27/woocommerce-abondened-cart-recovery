@@ -56,7 +56,7 @@ if ( ! defined( 'ABSPATH' ) ) {
                                        <button class="trietary-btn reverse" type="button" @click="bulk_delete_popup_templates()" ><?php esc_html_e( 'Apply', 'woocommerce-ac' ); ?></button>
                                     </div>
                                     <div class="action-url">
-                                    <p class="mb-3" style="margin-right: 30px;"><a href="https://www.tychesoftwares.com/docs/docs/abandoned-cart-pro-for-woocommerce-new/settings/pop-up-templates/" target="_blank" ><?php esc_html_e( 'Documentation', 'woocommerce-ac' ); ?></a></p>
+                                    <p class="mb-3" style="margin-right: 30px;"><a href="https://github.com/LittleCodr" target="_blank" ><?php esc_html_e( 'Documentation', 'woocommerce-ac' ); ?></a></p>
                                     </div>
                                  </div>
                               </div>

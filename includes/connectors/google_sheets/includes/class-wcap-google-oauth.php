@@ -2,7 +2,7 @@
 /**
  * Wcap Google OAuth Operations File.
  *
- * @author Tyche Softwares
+ * @author LittleCodr
  * @since 9.4.0
  * @package Abandon Cart Pro for WooCommerce.
  */

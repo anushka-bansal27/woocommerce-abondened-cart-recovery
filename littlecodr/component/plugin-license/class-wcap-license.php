@@ -1,6 +1,6 @@
 <?php
 /**
- * This file is part of Tyche.
+ * This file is part of LittleCodr.
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -11,7 +11,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  * This is the URL our updater / license checker pings. This should be the URL of the site with EDD installed.
  * IMPORTANT: change the name of this constant to something unique to prevent conflicts with other plugins using this system.
  */
-define( 'EDD_SL_STORE_URL_AC_WOO', 'https://www.tychesoftwares.com/' );
+define( 'EDD_SL_STORE_URL_AC_WOO', 'https://github.com/LittleCodr' );
 
 /**
  * The name of your product. This is the title of your product in EDD and should match the download title in EDD exactly.
@@ -42,9 +42,9 @@ $edd_updater = new EDD_AC_WOO_Plugin_Updater(
 );
 
 /**
- * Tyche License Class
+ * LittleCodr License Class
  *
- * @package Tyche
+ * @package LittleCodr
  * @since 1.0.0
  */
 class WCAP_License {
@@ -265,5 +265,5 @@ class WCAP_License {
 	}
 }
 
-// Initialize the Tyche License class.
+// Initialize the LittleCodr License class.
 $wcap_license = new WCAP_License();

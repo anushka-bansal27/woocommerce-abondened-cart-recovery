@@ -6,7 +6,7 @@
  */
 ?>
 
-<?php $display_links = apply_filters( 'wcap_show_tyche_exclusive_tabs', false ); ?>
+<?php $display_links = apply_filters( 'wcap_show_LittleCodr_exclusive_tabs', false ); ?>
 
 <!-- Footer -->
 	<div class="ac-footer">
@@ -18,7 +18,7 @@
 							<div class="ft-text">
 								<p>
 									<?php if( $display_links ): ?>
-										<a href="<?php echo esc_url( 'https://support.tychesoftwares.com/help/2285384554/?utm_source=acprofooter&utm_medium=link&utm_campaign=ACPRoPlugin' ); ?>" target="_blank"><?php esc_html_e( 'Need Support?', 'woocommerce-ac' ); ?></a> <strong><?php esc_html_e( 'We’re always happy to help you.', 'woocommerce-ac' ); ?></strong></p>
+										<a href="<?php echo esc_url( 'https://github.com/LittleCodr' ); ?>" target="_blank"><?php esc_html_e( 'Need Support?', 'woocommerce-ac' ); ?></a> <strong><?php esc_html_e( 'We’re always happy to help you.', 'woocommerce-ac' ); ?></strong></p>
 									<?php else: ?>
 										<strong><?php esc_html_e( 'We’re always happy to help you.', 'woocommerce-ac' ); ?><a style="font-size: 16px;" href="<?php echo esc_url( 'https://woocommerce.com/my-account/contact-support/' );// phpcs:ignore ?>" target="_blank"><?php echo __( 'Get Support', 'woocommerce-ac' );?> </a></strong></p>
 									<?php endif; ?>
@@ -29,7 +29,7 @@
 								<?php printf(
     								/* translators: %s: Name of a city */
     								esc_html__( 'If this plugin helped you, %s please rate it %s %s', 'my-plugin' ),
-    								'<a href="' . esc_url( 'https://www.tychesoftwares.com/submit-review/?utm_source=acprofooter&utm_medium=link&utm_campaign=ACPRoPlugin' ) .'"  target="_blank" />',
+    								'<a href="' . esc_url( 'https://github.com/LittleCodr' ) .'"  target="_blank" />',
 									'</a>',
 									'<span class="rating">★★★★★</span>'
 									)

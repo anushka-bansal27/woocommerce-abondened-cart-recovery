@@ -4,7 +4,7 @@
  *
  * It shows the states on Dashboard tab.
  *
- * @author      Tyche Softwares
+ * @author      LittleCodr
  * @package     Abandoned-Cart-Pro-for-WooCommerce/Classes
  * @category    Classes
  * @since       3.5

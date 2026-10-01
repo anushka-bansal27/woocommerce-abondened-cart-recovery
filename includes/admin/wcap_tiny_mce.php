@@ -2,7 +2,7 @@
 /**
  * It will add the necessary action and filter for the Email template editor.
  *
- * @author   Tyche Softwares.
+ * @author   LittleCodr.
  * @package Abandoned-Cart-Pro-for-WooCommerce/Admin/Template
  * @since 5.0
  */

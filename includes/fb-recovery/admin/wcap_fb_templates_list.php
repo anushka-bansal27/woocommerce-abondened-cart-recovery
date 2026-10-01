@@ -4,7 +4,7 @@
  *
  * This will display the list of FB Templates
  * 
- * @author   Tyche Softwares
+ * @author   LittleCodr
  * @package  Abandoned-Cart-Pro-for-WooCommerce/Classes
  * @category Classes
  * @since    7.10

@@ -1,7 +1,7 @@
 <?php
 /**
  * Send an email to the admin when the abandoned cart is recovered.
- * @author  Tyche Softwares
+ * @author  LittleCodr
  * @package Abandoned-Cart-Pro-for-WooCommerce/Admin/Recover
  * @since 5.0
  */

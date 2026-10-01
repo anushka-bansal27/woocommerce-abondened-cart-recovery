@@ -43,7 +43,7 @@ jQuery(window).load(function() {
                       recovered_amount[i] = data[date]['recovered_amount'];
                     }
                         //console.log(abandoned_amount);
-                        tyche.wcap.Highcharts_line_chart(abandoned_amount,recovered_amount,dataset);
+                        LittleCodr.wcap.Highcharts_line_chart(abandoned_amount,recovered_amount,dataset);
                 })
                     .catch(function (error) {
                     console.log(error);
@@ -63,7 +63,7 @@ jQuery(window).load(function() {
                       recovered_amount[i] = data[date]['recovered_amount'];
                     }
                         //console.log(abandoned_amount);
-                        tyche.wcap.Highcharts_main(abandoned_amount,recovered_amount,dataset);
+                        LittleCodr.wcap.Highcharts_main(abandoned_amount,recovered_amount,dataset);
                 })
                     .catch(function (error) {
                     console.log(error);
@@ -113,7 +113,7 @@ jQuery(window).load(function() {
                       abandoned_amount[i] = data[date]['abandoned_amount'];
                       recovered_amount[i] = data[date]['recovered_amount'];
                     }
-                        tyche.wcap.Highcharts_line_chart(abandoned_amount,recovered_amount,dataset);
+                        LittleCodr.wcap.Highcharts_line_chart(abandoned_amount,recovered_amount,dataset);
                 })
                 .catch(function (error) {
                     console.log(error);

@@ -2,7 +2,7 @@
 /**
  * It will have all the common function needed all over the plugin.
  * 
- * @author   Tyche Softwares
+ * @author   LittleCodr
  * @package  Abandoned-Cart-Pro-for-WooCommerce/Database-Layer
  * @since 7.7
  */

@@ -2,7 +2,7 @@
 /**
  * It will Add all the Boilerplate component when we activate the plugin.
  *
- * @author  Tyche Softwares
+ * @author  LittleCodr
  * @package Abandoned-Cart-Pro-for-WooCommerce/Admin/Component
  */
 
@@ -59,7 +59,7 @@ if ( ! class_exists( 'Wcap_All_Component' ) ) {
 		public static function wcap_get_faq() {
 
 			$ts_faq = array();
-			$display_links = apply_filters( 'wcap_show_tyche_exclusive_tabs', false );
+			$display_links = apply_filters( 'wcap_show_LittleCodr_exclusive_tabs', false );
 
 			$ts_faq = array(
 				1  => array(

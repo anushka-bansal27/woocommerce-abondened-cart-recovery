@@ -4,7 +4,7 @@
  *
  * It will send custom email to selected abandoned cart's users. The admin of the store will be able to send the abandoned cart reminder to specific abandoned cart(s). Also, the admin can edit the existing email template for sending the email.
  *
- * @author   Tyche Softwares
+ * @author   LittleCodr
  * @package  Abandoned-Cart-Pro-for-WooCommerce/Classes
  * @category Classes
  * @since    5.0

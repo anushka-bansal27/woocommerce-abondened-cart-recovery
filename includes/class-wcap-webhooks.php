@@ -4,7 +4,7 @@
  *
  * Class for abandon cart webhooks.
  *
- * @author   Tyche Softwares
+ * @author   LittleCodr
  * @package  WCAP/webhooks
  * @category Classes
  */

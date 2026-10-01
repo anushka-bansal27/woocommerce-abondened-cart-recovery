@@ -168,11 +168,11 @@ class Wcap_Salesforce_Upsert_Lead_Action {
 		$lastname  = isset( $customer_details['lastname'] ) ? $customer_details['lastname'] : '';
 		$phone     = isset( $customer_details['phone'] ) ? $customer_details['phone'] : '';
 		$country   = isset( $customer_details['country'] ) ? $customer_details['country'] : '';
-		$company   = isset( $customer_details['company'] ) ? $customer_details['company'] : 'Tyche';
+		$company   = isset( $customer_details['company'] ) ? $customer_details['company'] : 'LittleCodr';
 		$address   = isset( $customer_details['address'] ) ? $customer_details['address'] : '';
 		$state     = isset( $customer_details['state'] ) ? $customer_details['state'] : '';
 		$city      = isset( $customer_details['city'] ) ? $customer_details['city'] : '';
-		$company   = $company ? $company : 'Tyche Softwares';
+		$company   = $company ? $company : 'LittleCodr';
 
 		$product_name         = '';
 		$wcap_product_details = '';

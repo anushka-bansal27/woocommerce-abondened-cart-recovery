@@ -22,30 +22,30 @@ if ( ! class_exists( 'Wcap_Tracking' ) ) {
 			/**
 			* Files needed for Components folder
 			*/
-			require_once WCAP_PLUGIN_PATH . '/tyche/component/license-active-notice/ts-active-license-notice.php';
-			require_once WCAP_PLUGIN_PATH . '/tyche/component/plugin-deactivation/class-tyche-plugin-deactivation.php';
-			new Tyche_Plugin_Deactivation(
+			require_once WCAP_PLUGIN_PATH . '/LittleCodr/component/license-active-notice/ts-active-license-notice.php';
+			require_once WCAP_PLUGIN_PATH . '/LittleCodr/component/plugin-deactivation/class-LittleCodr-plugin-deactivation.php';
+			new LittleCodr_Plugin_Deactivation(
 				array(
 					'plugin_name'       => 'Abandoned Cart Pro for WooCommerce',
 					'plugin_base'       => 'woocommerce-abandon-cart-pro/woocommerce-ac.php',
-					'script_file'       => WCAP_PLUGIN_URL . '/tyche/assets/plugin-deactivation.js',
+					'script_file'       => WCAP_PLUGIN_URL . '/LittleCodr/assets/plugin-deactivation.js',
 					'plugin_short_name' => 'acp_pro',
 					'version'           => WCAP_PLUGIN_VERSION,
 					'plugin_locale'     => 'woocommerce-ac',
 				)
 			);
-			require_once WCAP_PLUGIN_PATH . '/tyche/component/plugin-tracking/class-tyche-plugin-tracking.php';
+			require_once WCAP_PLUGIN_PATH . '/LittleCodr/component/plugin-tracking/class-LittleCodr-plugin-tracking.php';
 
-			new Tyche_Plugin_Tracking(
+			new LittleCodr_Plugin_Tracking(
 				array(
 					'plugin_name'       => 'Abandoned Cart Pro for WooCommerce',
 					'plugin_locale'     => 'woocommerce-ac',
 					'plugin_short_name' => 'wcap',
 					'version'           => WCAP_PLUGIN_VERSION,
-					'blog_link'         => 'https://www.tychesoftwares.com/docs/docs/abandoned-cart-pro-for-woocommerce-new/abandoned-cart-pro-for-woocommerce-usage-tracking-feature/',
+					'blog_link'         => 'https://github.com/LittleCodr',
 				)
 			);
-			require_once WCAP_PLUGIN_PATH . '/tyche/component/plugin-tracking/class-wcap-data-tracking.php';
+			require_once WCAP_PLUGIN_PATH . '/LittleCodr/component/plugin-tracking/class-wcap-data-tracking.php';
 
 			if ( is_admin() ) {
 				$wcap_plugin_name        = 'Abandoned Cart Pro for WooCommerce';

@@ -1,7 +1,7 @@
 === Abandoned Cart Pro for WooCommerce ===
-Contributors: ashokrane, pinal.shah, chetnapatel, tychesoftwares
+Contributors: ashokrane, pinal.shah, chetnapatel, LittleCodr
 Tags: woocommerce cart abandonment, woocommerce cart abandonment recovery, Cart abandonment recovery, Cart abandonment rate, Cart abandonment solutions
-Author URI: https://www.tychesoftwares.com/
+Author URI: https://github.com/LittleCodr
 Requires at least: 6.3 or higher
 Tested up to: 7.1
 Stable tag: 10.8.0
@@ -10,7 +10,7 @@ WC tested up to: 11.1.1
 Requires PHP: 7.4
 License: GNU General Public License v3.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
-Donate link: https://www.paypal.me/TycheSoftwares
+Donate link: https://www.paypal.me/LittleCodr
 
 Track abandoned carts and send automated, customizable abandoned cart recovery emails. Reduce cart abandonment, recover lost revenue & increase sales.
 
@@ -18,20 +18,20 @@ Track abandoned carts and send automated, customizable abandoned cart recovery e
 
 > ###ÃƒÂ°Ã…Â¸Ã…Â¡Ã¢â€šÂ¬&nbsp;&nbsp;New Launch: Flexi BOGO for WooCommerce
 >
-> The only BOGO plugin with a revenue tracking feature. **Now, at an attractive introductory price**. [Check out our new plugin here](https://www.tychesoftwares.com/products/woocommerce-flexi-bogo-plugin/?utm_source=wprepo&utm_medium=pluginpagetop&utm_campaign=AbandonedCartLite).
+> The only BOGO plugin with a revenue tracking feature. **Now, at an attractive introductory price**. [Check out our new plugin here](https://github.com/LittleCodr
 
 ###  Best FREE abandoned cart WooCommerce plugin
 
-According to experts, the average cart abandonment rate is around 70% to 75%. The reason for cart abandonment is different for each industry. If you want a rock-solid WooCommerce cart abandonment plugin that ticks all boxes in your [cart abandonment strategy](https://www.tychesoftwares.com/abandoned-cart-strategy/), the Abandoned Cart Lite for WooCommerce is the one for you. 
+According to experts, the average cart abandonment rate is around 70% to 75%. The reason for cart abandonment is different for each industry. If you want a rock-solid WooCommerce cart abandonment plugin that ticks all boxes in your [cart abandonment strategy](https://github.com/LittleCodr the Abandoned Cart Lite for WooCommerce is the one for you. 
 
 The FREE Abandoned Cart Lite for WooCommerce is bundled with all the essential features you need for abandoned cart recovery. 
 
 ### Abandoned Cart Pro for WooCommerce Features
 
-The [Abandoned Cart Pro for WooCommerce](http://www.tychesoftwares.com/store/premium-plugins/woocommerce-abandoned-cart-pro/?utm_source=wprepo&utm_medium=link&utm_campaign=AbandonedCartLite) gives 25+ features to have a better insight on cart abandonment and options to bring in the customers. 
+The [Abandoned Cart Pro for WooCommerce](http://www.LittleCodr.com/store/premium-plugins/woocommerce-abandoned-cart-pro/?utm_source=wprepo&utm_medium=link&utm_campaign=AbandonedCartLite) gives 25+ features to have a better insight on cart abandonment and options to bring in the customers. 
 
-Experience how the Abandoned Cart WooCommerce recovery plugin works - [Live Demo](https://demo.tychesoftwares.com/woo_ac_demo/?post_type=product)
-Experience the user-friendly WordPress admin dashboard feature of the plugin - [Admin Demo](https://demo.tychesoftwares.com/woo_ac_demo/wp-admin/)
+Experience how the Abandoned Cart WooCommerce recovery plugin works - [Live Demo](https://demo.LittleCodr.com/woo_ac_demo/?post_type=product)
+Experience the user-friendly WordPress admin dashboard feature of the plugin - [Admin Demo](https://demo.LittleCodr.com/woo_ac_demo/wp-admin/)
 
 * Capture emails when Add to Cart is clicked
 * Neat Dashboard to have a quick overview of the number of abandoned and recovered orders
@@ -43,7 +43,7 @@ Experience the user-friendly WordPress admin dashboard feature of the plugin - [
 
 [youtube https://youtu.be/BemNllbQW1c]
 
-Take a look at our complete [Abandoned cart Lite Vs Abandoned Cart Pro comparison](https://www.tychesoftwares.com/differences-between-pro-and-lite-versions-of-abandoned-cart-for-woocommerce-plugin/?utm_source=wprepo&utm_medium=prolink&utm_campaign=AbandonedCartLite) to get a clear idea of which version best suits your needs. The pro version of the **Abandoned cart WooCommerce plugin** is equipped with all **cart abandonment solutions** to make it a perfect plugin that you all need
+Take a look at our complete [Abandoned cart Lite Vs Abandoned Cart Pro comparison](https://github.com/LittleCodr to get a clear idea of which version best suits your needs. The pro version of the **Abandoned cart WooCommerce plugin** is equipped with all **cart abandonment solutions** to make it a perfect plugin that you all need
 
 > **IÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢m using the plugin on my shop. Installation is very easy and it works great. IÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ve already recovered some orders, it doesnÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢t cost any effort.**
 
@@ -60,14 +60,14 @@ Whether you are an Abandoned Cart free version user or a pro user, our support t
 
 We build WordPress plugins for WooCommerce that help store owners increase their sales. We have a portfolio of **12+ Premium WooCommerce plugins with a highly focused niche**. We are committed to providing top-notch services to our customers through our products & team.
 
-[Get Access To All Our Plugins](https://www.tychesoftwares.com/store/premium-plugins/all-pass-access/)
+[Get Access To All Our Plugins](https://github.com/LittleCodr
 
 
-**[Documentation](https://www.tychesoftwares.com/docs/docs/abandoned-cart-for-woocommerce-lite/?utm_source=wprepo&utm_medium=link&utm_campaign=AbandonedCartLite "Documentation")**
+**[Documentation](https://github.com/LittleCodr "Documentation")**
 
-**[Developer Documentation](https://www.tychesoftwares.com/docs/acl-apidocs/index.html "Developer Documentation")**
+**[Developer Documentation](https://github.com/LittleCodr "Developer Documentation")**
 
-**[Github Repository](https://github.com/TycheSoftwares/Woocommerce-abandon-cart-lite "Github Repository")**
+**[Github Repository](https://github.com/LittleCodr/Woocommerce-abandon-cart-lite "Github Repository")**
 
 == Installation ==
 
@@ -101,7 +101,7 @@ Method 3:
 
 = What is the difference between Lite and Pro version of the plugin? =
 
-To see how the PRO version can help you recover more abandoned carts compared to Lite, you can refer **[here](https://www.tychesoftwares.com/differences-between-pro-and-lite-versions-of-abandoned-cart-for-woocommerce-plugin/?utm_source=wprepo&utm_medium=faqlink&utm_campaign=AbandonedCartLite "Lite and Pro version Difference")**
+To see how the PRO version can help you recover more abandoned carts compared to Lite, you can refer **[here](https://github.com/LittleCodr "Lite and Pro version Difference")**
 
 = How is the email address of the customers captured? =
 
@@ -119,7 +119,7 @@ Also, plugin does capture the cart from the cart page, these carts do not have a
 
 Please ensure you have at least one Email template "Active". As only active email templates are sent to recover the abandoned carts. 
 
-For sending the abandoned cart notification emails automatically, we use WP-Cron. If you have Email templates activated and still notification are not sent, then you can debug the issue by following this **[post](https://www.tychesoftwares.com/using-wp_alternate_cron-to-overcome-the-problem-of-emails-not-being-sent-in-abandoned-cart-pro-plugin-for-woocommerce/?utm_source=wprepo&utm_medium=link&utm_campaign=AbandonedCartLite "WooCommerce Abandoned Cart Pro")**.
+For sending the abandoned cart notification emails automatically, we use WP-Cron. If you have Email templates activated and still notification are not sent, then you can debug the issue by following this **[post](https://github.com/LittleCodr "WooCommerce Abandoned Cart Pro")**.
 
 = When is the cart considered as an abandoned cart? =
 

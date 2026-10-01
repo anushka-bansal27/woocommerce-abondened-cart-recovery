@@ -3,7 +3,7 @@
  *
  * It will call the function when we activate the plugin.
  *
- * @author  Tyche Softwares
+ * @author  LittleCodr
  * @package Abandoned-Cart-Pro-for-WooCommerce/Admin/Activate-plugin
  * @since   5.0
  */

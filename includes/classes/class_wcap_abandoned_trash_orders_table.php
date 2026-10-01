@@ -5,7 +5,7 @@
  *
  * It will show trashed abandoned carts data on Trash tab of Abandoned Orders page.
  * 
- * @author   Tyche Softwares
+ * @author   LittleCodr
  * @package  Abandoned-Cart-Pro-for-WooCommerce/Classes
  * @category Classes
  * @since    5.0

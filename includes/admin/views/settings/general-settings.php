@@ -412,7 +412,7 @@ $settings_based_on_license = apply_filters(
                                                 <div class="col-left">
                                                     <label><?php esc_html_e( 'Enable AI Reporting Abilities (lets AI assistants query your abandoned-cart reports):', 'woocommerce-ac' ); ?></label>
                                                     <div>
-                                                        <a href="https://www.tychesoftwares.com/docs/docs/abandoned-cart-pro-for-woocommerce-new/connect-abandoned-cart-pro-to-ai-assistants-using-mcp/" target="_blank" style="font-size: 14px;"><?php esc_html_e( 'View Documentation', 'woocommerce-ac' ); ?></a>
+                                                        <a href="https://github.com/LittleCodr" target="_blank" style="font-size: 14px;"><?php esc_html_e( 'View Documentation', 'woocommerce-ac' ); ?></a>
                                                     </div>
                                                 </div>
                                                 <div class="col-right">
@@ -663,7 +663,7 @@ For example: Your email address will help us support your shopping experience th
                                                             <span class="el-switch-style"></span>
                                                         </label>
                                                     </div>
-                                                    <?php echo wp_kses_post( "Please visit <a href='https://www.tychesoftwares.com/moving-to-the-action-scheduler-library/?utm_source=AcProNotice&amp;utm_medium=link&amp;utm_campaign=AbandonCartPro' target='_blank'>here</a> for more information on the Action Scheduler.", 'woocommerce-ac' ); ?>
+                                                    <?php echo wp_kses_post( "Please visit <a href='https://github.com/LittleCodr' target='_blank'>here</a> for more information on the Action Scheduler.", 'woocommerce-ac' ); ?>
                                                 </div>
                                             </div>  
 

@@ -1,7 +1,7 @@
 <?php
 /**
  * It will update the abadoned carts to recovered cart when customer reached the order received page.
- * @author   Tyche Softwares
+ * @author   LittleCodr
  * @package  Abandoned-Cart-Pro-for-WooCommerce/Classes
  * @since 5.0
  */

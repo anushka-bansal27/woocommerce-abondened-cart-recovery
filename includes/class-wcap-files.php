@@ -4,7 +4,7 @@
  *
  * Class for Including plugin files.
  *
- * @author   Tyche Softwares
+ * @author   LittleCodr
  * @package  WCAP/Files
  * @category Classes
  */
@@ -119,9 +119,9 @@ class WCAP_Files {
 
 		self::include_file( WCAP_PLUGIN_PATH . '/includes/component/woocommerce-check/ts-woo-active.php' );
 		self::include_file( WCAP_PLUGIN_PATH . '/includes/component/faq-support/ts-faq-support.php' );
-		// Tyche specific files.
-		if ( file_exists( WCAP_PLUGIN_PATH . '/tyche/init.php' ) ) {
-			require_once WCAP_PLUGIN_PATH . '/tyche/init.php';
+		// LittleCodr specific files.
+		if ( file_exists( WCAP_PLUGIN_PATH . '/LittleCodr/init.php' ) ) {
+			require_once WCAP_PLUGIN_PATH . '/LittleCodr/init.php';
 		}
 
 		self::include_file( WCAP_PLUGIN_PATH . '/includes/class-wcap-tracking.php' );

@@ -4,7 +4,7 @@
  *
  * This files will show the Email Templates when we click on the Send Custom Email.
  * 
- * @author   Tyche Softwares
+ * @author   LittleCodr
  * @package  Abandoned-Cart-Pro-for-WooCommerce/Classes
  * @category Classes
  * @since    4.2

@@ -4,7 +4,7 @@
  *
  * It will show list of Active and deactive email templates on Emails Templates tab.
  *
- * @author   Tyche Softwares
+ * @author   LittleCodr
  * @package  Abandoned-Cart-Pro-for-WooCommerce/Classes
  * @category Classes
  * @since    5.0

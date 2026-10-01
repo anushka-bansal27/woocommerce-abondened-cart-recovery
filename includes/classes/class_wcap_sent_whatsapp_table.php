@@ -5,7 +5,7 @@
  * It will show records of the Abandoned cart reminder WhatApp messages which is sent to customers
  * and displayed in Reminders Sent->WhatsApp Sent.
  *
- * @author   Tyche Softwares
+ * @author   LittleCodr
  * @package  Abandoned-Cart-Pro-for-WooCommerce/Classes
  * @category Classes
  * @since    9.19.0

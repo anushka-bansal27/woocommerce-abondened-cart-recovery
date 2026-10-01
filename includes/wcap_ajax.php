@@ -3,7 +3,7 @@
  *
  * It contain all the functions for ajax call.
  *
- * @author  Tyche Softwares
+ * @author  LittleCodr
  * @package Abandoned-Cart-Pro-for-WooCommerce/Ajax-Functions
  * @since   5.0
  */

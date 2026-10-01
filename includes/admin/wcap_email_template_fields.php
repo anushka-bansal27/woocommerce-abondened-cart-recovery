@@ -2,7 +2,7 @@
 /**
  * It will display the add/edit fields of the email template.
  *
- * @author   Tyche Softwares
+ * @author   LittleCodr
  * @package Abandoned-Cart-Pro-for-WooCommerce/Admin/Template
  * @since 5.0
  */

@@ -15,8 +15,8 @@ if ( ! class_exists( 'Wcap_License_Files' ) ) {
 		 * Constructor
 		 */
 		public function __construct() {
-			require_once WCAP_PLUGIN_PATH . '/tyche/component/plugin-license/wcap_edd.php';
-			require_once WCAP_PLUGIN_PATH . '/tyche/component/plugin-license/class-wcap-license.php';
+			require_once WCAP_PLUGIN_PATH . '/LittleCodr/component/plugin-license/wcap_edd.php';
+			require_once WCAP_PLUGIN_PATH . '/LittleCodr/component/plugin-license/class-wcap-license.php';
 
 			if ( class_exists( 'Wcap_EDD' ) ) {
 				add_action( 'admin_init', array( 'Wcap_EDD', 'wcap_edd_ac_register_option' ) );

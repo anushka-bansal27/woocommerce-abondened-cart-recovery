@@ -2,7 +2,7 @@
 /**
  * Guest cart Model class 
  *
- * @author   Tyche Softwares
+ * @author   LittleCodr
  * @package  Abandoned-Cart-Pro-for-WooCommerce/Database-Layer
  * @since 8.15
  */

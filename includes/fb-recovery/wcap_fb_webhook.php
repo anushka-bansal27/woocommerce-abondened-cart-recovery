@@ -4,7 +4,7 @@
  *
  * This file will set webhooks for communication with FB Messenger API.
  * 
- * @author   Tyche Softwares
+ * @author   LittleCodr
  * @package  Abandoned-Cart-Pro-for-WooCommerce/FB
  * @category Classes
  * @since    7.10.0

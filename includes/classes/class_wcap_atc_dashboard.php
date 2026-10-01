@@ -5,7 +5,7 @@
  *
  * It will show record of Add To Cart popup Modal on Dashboard tab.
  * 
- * @author   Tyche Softwares
+ * @author   LittleCodr
  * @package  Abandoned-Cart-Pro-for-WooCommerce/Classes
  * @category Classes
  * @since    6.0

@@ -1,8 +1,8 @@
 "use strict";
 
-var tyche = {
-	version: '1.2', // version of tyche constructor.
-	constructor: tyche,
+var LittleCodr = {
+	version: '1.2', // version of LittleCodr constructor.
+	constructor: LittleCodr,
 	extend: function() {
 		let target = arguments[ 0 ] || {},
 			length = arguments.length,
@@ -36,7 +36,7 @@ var tyche = {
 		return target;
 	},
 	init: function() {
-		// Here we can run codes we want initialized after tyche object core.
+		// Here we can run codes we want initialized after LittleCodr object core.
 		if ( typeof String.prototype.replaceAll == "undefined" ) {
 			String.prototype.replaceAll = function( match, replace ) {
 				return this.replace( new RegExp( match, 'g' ), () => replace );
@@ -57,7 +57,7 @@ var tyche = {
 	cfp: {}, // Call for Price for WooCommerce.
 	cpp: {}, // Currency per Product for WooCommerce.
 
-	// Putting some demo keys here, in case we release new plugins in future, we wouldn't need to update tyche.js file across the plugins.
+	// Putting some demo keys here, in case we release new plugins in future, we wouldn't need to update LittleCodr.js file across the plugins.
 	dm_1: {},
 	dm_2: {},
 	dm_3: {},
@@ -83,7 +83,7 @@ var tyche = {
 		},
 		modal: function( $plugin, $data ) {
 
-			if ( '' === tyche.plugin_deactivation.fn.return( $data, 'deactivation_data' ) || '' === tyche.plugin_deactivation.fn.return( $data, 'nonce' ) || '' === tyche.plugin_deactivation.fn.return( $data, 'deactivation_req_msg' ) ) {
+			if ( '' === LittleCodr.plugin_deactivation.fn.return( $data, 'deactivation_data' ) || '' === LittleCodr.plugin_deactivation.fn.return( $data, 'nonce' ) || '' === LittleCodr.plugin_deactivation.fn.return( $data, 'deactivation_req_msg' ) ) {
 				return '';
 			}
 
@@ -103,18 +103,18 @@ var tyche = {
 				reasons.forEach( function( item ) {
 					html += `
 						<li
-							class="reason${tyche.plugin_deactivation.fn.return(item,'input_type',' has-input')}${tyche.plugin_deactivation.fn.return(item,'html',' has-html')}"
-							data-input-type="${tyche.plugin_deactivation.fn.return(item,'input_type')}"
-							data-input-placeholder="${tyche.plugin_deactivation.fn.return(item,'input_placeholder')}">
+							class="reason${LittleCodr.plugin_deactivation.fn.return(item,'input_type',' has-input')}${LittleCodr.plugin_deactivation.fn.return(item,'html',' has-html')}"
+							data-input-type="${LittleCodr.plugin_deactivation.fn.return(item,'input_type')}"
+							data-input-placeholder="${LittleCodr.plugin_deactivation.fn.return(item,'input_placeholder')}">
 								<label>
 									<span>
-										<input type="radio" name="selected-reason" value="${tyche.plugin_deactivation.fn.return(item,'id')}" />
+										<input type="radio" name="selected-reason" value="${LittleCodr.plugin_deactivation.fn.return(item,'id')}" />
 									</span>
 									<span>
-										${tyche.plugin_deactivation.fn.return(item,'text')}
+										${LittleCodr.plugin_deactivation.fn.return(item,'text')}
 									</span>
 								</label>
-							${'' !== tyche.plugin_deactivation.fn.return(item,'html') ? '<div class="reason_html">' + tyche.plugin_deactivation.fn.return(item,'html') + '</div>' : ''}
+							${'' !== LittleCodr.plugin_deactivation.fn.return(item,'html') ? '<div class="reason_html">' + LittleCodr.plugin_deactivation.fn.return(item,'html') + '</div>' : ''}
 						</li>`;
 				} );
 
@@ -154,30 +154,30 @@ var tyche = {
 				if ( 0 !== jQuery( `.${plugin}.ts-slug` ).prev( 'a' ) ) {
 					jQuery( `.${plugin}.ts-slug` ).prev( 'a' ).on( 'click', function( e ) {
 						e.preventDefault();
-						tyche.plugin_deactivation.show_modal( modal );
+						LittleCodr.plugin_deactivation.show_modal( modal );
 					} );
 				}
 
 				modal.on( 'click', '.button-skip-deactivate', function( e ) {
 					e.preventDefault();
 					jQuery( '.ts-modal-footer p' ).hide();
-					tyche.plugin_deactivation.events.button_submit( this, data, plugin, true );
+					LittleCodr.plugin_deactivation.events.button_submit( this, data, plugin, true );
 				} );
 
 				modal.on( 'click', '.button-deactivate', function( e ) {
 					e.preventDefault();
 					jQuery( '.ts-modal-footer p' ).hide();
-					tyche.plugin_deactivation.events.button_submit( this, data, plugin );
+					LittleCodr.plugin_deactivation.events.button_submit( this, data, plugin );
 				} );
 
 				modal.on( 'click', 'input[type="radio"]', function() {
 					jQuery( '.ts-modal-footer p' ).hide();
-					tyche.plugin_deactivation.events.button_option_selection( this, modal );
+					LittleCodr.plugin_deactivation.events.button_option_selection( this, modal );
 				} );
 
 				// If the user has clicked outside the window, cancel it.
 				modal.on( 'click', function( e ) {
-					tyche.plugin_deactivation.events.button_click_outside_window( e, modal );
+					LittleCodr.plugin_deactivation.events.button_click_outside_window( e, modal );
 				} );
 			},
 
@@ -200,7 +200,7 @@ var tyche = {
 				}
 
 				let	data = {
-					'action': 'tyche_plugin_deactivation_submit_action',
+					'action': 'LittleCodr_plugin_deactivation_submit_action',
 					'reason_id': reason_id,
 					'reason_text': reason_text,
 					'reason_info': 0 !== response.length ? response.val().trim() : '',
@@ -209,7 +209,7 @@ var tyche = {
 					'nonce': jQuery( 'input[name="nonce"]' ).val()
 				};
 
-				let ajax_url = tyche.plugin_deactivation.fn.return( $data, 'ajax_url' ),
+				let ajax_url = LittleCodr.plugin_deactivation.fn.return( $data, 'ajax_url' ),
 					href = jQuery( `.${plugin}.ts-slug` ).prev().prop( 'href' );
 
 				if ( '' !== ajax_url && '' !== href ) {
@@ -242,7 +242,7 @@ var tyche = {
 					return;
 				}
 
-				tyche.plugin_deactivation.close_modal( modal );
+				LittleCodr.plugin_deactivation.close_modal( modal );
 			},
 
 			button_option_selection: function( $this, modal ) {
@@ -264,4 +264,4 @@ var tyche = {
 	}
 }
 
-tyche.init();
+LittleCodr.init();

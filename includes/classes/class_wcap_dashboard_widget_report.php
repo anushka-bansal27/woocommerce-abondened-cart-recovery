@@ -4,7 +4,7 @@
  *
  * It will get the record of Abandoned Carts, Recovered Orders and products from database and show it on Dashboard Widget page.
  *
- * @author   Tyche Softwares
+ * @author   LittleCodr
  * @package  Abandoned-Cart-Pro-for-WooCommerce/Classes
  * @category Classes
  * @since    5.0

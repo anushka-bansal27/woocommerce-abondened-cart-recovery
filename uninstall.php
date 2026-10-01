@@ -4,7 +4,7 @@
  *
  * Uninstalling Abandoned Cart Pro for WooCommerce deletes tables, and options.
  *
- * @author      Tyche Softwares
+ * @author      LittleCodr
  * @package     Abandoned-Cart-Pro-for-WooCommerce/Uninstaller
  * @version     5.0
  * @todo in v9.0 - remove the delete queries for post meta

@@ -136,7 +136,7 @@ class wcap_active_license_notice {
 				?>
 				<div class="wcap-message notice">
 					<div class="wcap-content">
-						<img class="wcap-site-logo" src="<?php echo esc_url( plugins_url( '/woocommerce-abandon-cart-pro/assets/images/tyche-logo.png' ) ); ?> ">
+						<img class="wcap-site-logo" src="<?php echo esc_url( plugins_url( '/woocommerce-abandon-cart-pro/assets/images/LittleCodr-logo.png' ) ); ?> ">
 						<p><?php echo $message; //phpcs:ignore ?></p>
 					</div>
 				</div>
@@ -231,13 +231,13 @@ class wcap_active_license_notice {
 
 			if ( $show ) {
 
-				// $message = __( 'We have noticed that the license for <b>' . $this->plugin_name . '</b> plugin is expired. To receive automatic updates & support, please renew the license  <a href="https://www.tychesoftwares.com/store/premium-plugins/woocommerce-abandoned-cart-pro/" target="_blank">here</a> and update the license <a href= "'. $this->ts_license_page_url .'">here</a>.', "'. $this->ts_locale .'"  );
+				// $message = __( 'We have noticed that the license for <b>' . $this->plugin_name . '</b> plugin is expired. To receive automatic updates & support, please renew the license  <a href="https://github.com/LittleCodr" target="_blank">here</a> and update the license <a href= "'. $this->ts_license_page_url .'">here</a>.', "'. $this->ts_locale .'"  );
 				/* translators: %s: Renew Plugin Link */
 				$message = sprintf( __( 'Your Woo store is losing its WOW factor. Your Abandoned Cart Pro for WooCommerce license has expired. <a href="%s" class="button" target="_blank">Renew Now</a>', 'order-delivery-date' ), $renew_link );
 				?>
 				<div class="wcap-message notice">
 					<div class="wcap-content">
-						<img class="wcap-site-logo" src="<?php echo esc_url( plugins_url( '/woocommerce-abandon-cart-pro/assets/images/tyche-logo.png' ) ); ?> ">
+						<img class="wcap-site-logo" src="<?php echo esc_url( plugins_url( '/woocommerce-abandon-cart-pro/assets/images/LittleCodr-logo.png' ) ); ?> ">
 						<p><?php echo $message; //phpcs:ignore ?></p>
 					</div>
 				</div>

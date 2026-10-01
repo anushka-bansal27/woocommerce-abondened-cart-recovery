@@ -5,7 +5,7 @@
  * This if condition is used to identify that the wcap_send_mail.php file has been called directly from the cron job.
  * So it will prevent the below code when this file is called from the required_once.
  *
- * @author   Tyche Softwares
+ * @author   LittleCodr
  * @package  Abandoned-Cart-Pro-for-WooCommerce/Cron
  * @since    5.0
  */

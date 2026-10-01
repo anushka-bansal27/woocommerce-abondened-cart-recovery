@@ -67,7 +67,7 @@ class Wcap_Integrations {
 		<?php
 		printf(
 			esc_html__( 'Please note that the plugin will no longer send reminder emails to abandoned carts if integration is enabled with a third party CRM/email marketing tool. If you still wish to send reminder emails with the integration enabled, please get in touch with %s.' ),//phpcs:ignore
-			'<a href="https://support.tychesoftwares.com/help/2285384554" target="_blank">support at Tyche Softwares</a>'
+			'<a href="https://github.com/LittleCodr" target="_blank">support at LittleCodr</a>'
 		);
 		?>
 		</p>
